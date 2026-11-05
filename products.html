@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>全部手机壳 · FOLD / CASE</title>
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <header class="top">
+    <a href="index.html" class="logo">FOLD / CASE</a>
+    <a href="index.html" class="top-link">按机型浏览</a>
+  </header>
+  <main class="container" id="product-browser">
+    <div class="page-head">
+      <div>
+        <h1>全部手机壳</h1>
+        <p id="site-brand-count" class="site-brand-count" hidden></p>
+      </div>
+    </div>
+    <form class="product-filters" id="product-filters" role="search" hidden>
+      <label><span>搜索</span><input id="query" type="search" placeholder="机型、保护壳品牌或商品"></label>
+      <label><span>适配机型</span><select id="product-phone"><option value="">全部机型</option></select></label>
+      <label id="product-scope-field" hidden><span>显示范围</span><select id="product-scope"><option value="all">全部适配记录</option><option value="counted">已计入商品数</option></select></label>
+      <button id="product-reset" type="reset">清空筛选</button>
+    </form>
+    <section aria-label="手机壳浏览结果">
+      <p class="result" id="result" role="status">正在加载手机壳…</p>
+      <div id="grid" class="grid"></div>
+      <p id="empty" class="empty" hidden>没有匹配的手机壳。可清空筛选或换个关键词。</p>
+      <div class="product-pagination"><button id="product-more" type="button" hidden>显示更多</button></div>
+    </section>
+  </main>
+  <script src="site.js"></script>
+</body>
+</html>
