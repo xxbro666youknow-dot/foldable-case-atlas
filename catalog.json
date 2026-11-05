@@ -10105,14 +10105,14 @@
     {
       "id": "bb624f1fa86a27d5ed76",
       "phone_key": "honor-magic-v6",
-      "brand": "HONOR 商店关联 PITAKA（壳制造方未直核）",
-      "product_name": "HONOR Magic V6 Pitaka Case / Kevlar Case",
-      "series": "HONOR Magic V6 Pitaka Case / Kevlar Case",
+      "brand": "HONOR",
+      "product_name": "HONOR Magic V6 Kevlar Case",
+      "series": "Kevlar Case",
       "price": null,
       "currency": "",
       "product_url": "https://www.honor.com/ae-en/accessories/magic-v6-kevlar-case/buy/",
-      "image": "assets/48106847de9d456bcdfe74ce.webp",
-      "image_note": "",
+      "image": "assets/c2-bb624f1fa86a27d5ed76.webp",
+      "image_note": "同SKU商品页示意图，未做实物适配或性能测试。",
       "tags": []
     },
     {
@@ -10825,8 +10825,8 @@
       "price": null,
       "currency": "",
       "product_url": "https://www.duxducis.com/stex-series-pu-leather-foldable-phone-case-for-samsung-z-flip7-fe-w25-flip-flip-6",
-      "image": "",
-      "image_note": "",
+      "image": "assets/c2-191bd06a8247343265d1.webp",
+      "image_note": "品牌原页共用机型示意图，未逐机实装验证。",
       "tags": [
         "支架"
       ]
@@ -10840,8 +10840,8 @@
       "price": null,
       "currency": "",
       "product_url": "https://www.duxducis.com/luvy-series-pu-leather-ring-style-foldable-phone-case-for-samsung-z-flip7-fe-w25-flip-flip-6",
-      "image": "",
-      "image_note": "",
+      "image": "assets/c2-79f8825239112e2c56ad.webp",
+      "image_note": "品牌原页共用机型示意图，未逐机实装验证。",
       "tags": [
         "握持 / 防滑"
       ]
@@ -10922,7 +10922,7 @@
       "price": 9936,
       "currency": "JPY",
       "product_url": "https://brand.softbankselection.jp/category/BR_CASE/4580762390954.html",
-      "image": "",
+      "image": "assets/c2-22720a3f08126f201f5d.webp",
       "image_note": "",
       "tags": [
         "透明"
@@ -11002,7 +11002,7 @@
       "price": 9936,
       "currency": "JPY",
       "product_url": "https://brand.softbankselection.jp/category/BR_CASE/4580762390954.html",
-      "image": "",
+      "image": "assets/c2-75bdbf71ff148f47c33e.webp",
       "image_note": "",
       "tags": [
         "透明"
@@ -11056,7 +11056,7 @@
       "price": null,
       "currency": "",
       "product_url": "https://brand.softbankselection.jp/category/BR_CASE/4573197056663.html",
-      "image": "",
+      "image": "assets/c2-6ab8f3d3ebd375f5f9b5.webp",
       "image_note": "",
       "tags": []
     },
@@ -11069,7 +11069,7 @@
       "price": null,
       "currency": "",
       "product_url": "https://rbdirect.jp/shopdetail/000000009613",
-      "image": "",
+      "image": "assets/c2-d4b2abe4c610aa141346.webp",
       "image_note": "",
       "tags": [
         "透明"
@@ -11084,8 +11084,8 @@
       "price": null,
       "currency": "",
       "product_url": "https://partnertele.com/dux_ducis_futeral_fitt_do_samsung_z_z_flip_7_few25_flip_z_flip_6_niebieski",
-      "image": "",
-      "image_note": "",
+      "image": "assets/c2-4fd4fd665c404b00b18e.webp",
+      "image_note": "品牌原页共用机型示意图，未逐机实装验证。",
       "tags": []
     },
     {
@@ -11097,8 +11097,8 @@
       "price": null,
       "currency": "",
       "product_url": "https://nillkin.org/smartphone-accessories/samsung-phones-accessories/samsung-galaxy-fold-7-accessories/nillkin-samsung-galaxy-z-fold7-fold-7-5g-synthetic-fiber-pro-magnetic-case",
-      "image": "",
-      "image_note": "",
+      "image": "assets/c2-7150e3de1677475e520c.webp",
+      "image_note": "图示 Fold7；W26 共用适配据原页，未实装验证。",
       "tags": []
     },
     {
@@ -11110,8 +11110,8 @@
       "price": null,
       "currency": "",
       "product_url": "https://nillkin.org/smartphones-accessories/samsung-phones-accessories/samsung-galaxy-fold-7-accessories/nillkin-samsung-galaxy-z-fold7-fold-7-5g-carboprop-magnetic-magsafe-aramid-fiber-black-mirror-cover-version",
-      "image": "",
-      "image_note": "",
+      "image": "assets/c2-6edd9c6b670e0737ac56.webp",
+      "image_note": "图示 Fold7；W26 共用适配据原页，未实装验证。",
       "tags": []
     },
     {
@@ -11123,8 +11123,8 @@
       "price": null,
       "currency": "",
       "product_url": "https://www.duxducis.com/bril-series-pu-leather-case-for-samsung-galaxy-z-fold-se",
-      "image": "",
-      "image_note": "",
+      "image": "assets/c2-5832a86cc344d4e94a10.webp",
+      "image_note": "Fold SE 商品页示意图，未做实物适配验证。",
       "tags": []
     },
     {
@@ -11136,8 +11136,8 @@
       "price": null,
       "currency": "",
       "product_url": "https://www.duxducis.com/bril-series-pu-leather-case-with-pen-holder-for-samsung-galaxy-z-fold-se",
-      "image": "",
-      "image_note": "",
+      "image": "assets/c2-f518fbbc8f3c42f3cb37.webp",
+      "image_note": "Fold SE 商品页示意图，未做实物适配验证。",
       "tags": []
     },
     {
@@ -11175,8 +11175,8 @@
       "price": null,
       "currency": "",
       "product_url": "https://armor-x.com/products/ahn-mt24-rz50u-motorola-razr-70-plus-razr-plus-2026-case-ultra-slim-shockproof-crystal-clear-case",
-      "image": "",
-      "image_note": "",
+      "image": "assets/c2-166c7194c1bfcffa6ce3.webp",
+      "image_note": "原页明确 Razr 70+／Razr+ 2026，未做实装测试。",
       "tags": []
     },
     {
@@ -11268,8 +11268,8 @@
       "price": null,
       "currency": "",
       "product_url": "https://www.duxducis.com/stex-series-pu-leather-foldable-phone-case-for-samsung-z-flip7-fe-w25-flip-flip-6",
-      "image": "",
-      "image_note": "",
+      "image": "assets/c2-6670d304dd3fe7c488fb.webp",
+      "image_note": "品牌原页共用机型示意图，未逐机实装验证。",
       "tags": [
         "支架"
       ]
@@ -11283,8 +11283,8 @@
       "price": null,
       "currency": "",
       "product_url": "https://www.duxducis.com/luvy-series-pu-leather-ring-style-foldable-phone-case-for-samsung-z-flip7-fe-w25-flip-flip-6",
-      "image": "",
-      "image_note": "",
+      "image": "assets/c2-e00ae95eca32e43c2aec.webp",
+      "image_note": "品牌原页共用机型示意图，未逐机实装验证。",
       "tags": [
         "握持 / 防滑"
       ]
@@ -11483,8 +11483,8 @@
       "price": null,
       "currency": "",
       "product_url": "https://www.duxducis.com/luvy-series-pu-leather-ring-style-foldable-phone-case-for-samsung-z-flip7-fe-w25-flip-flip-6",
-      "image": "",
-      "image_note": "",
+      "image": "assets/c2-dbeaff2a1db9e4474c9a.webp",
+      "image_note": "品牌原页共用机型示意图，未逐机实装验证。",
       "tags": [
         "握持 / 防滑"
       ]
@@ -11498,8 +11498,8 @@
       "price": null,
       "currency": "",
       "product_url": "https://www.duxducis.com/stex-series-pu-leather-foldable-phone-case-for-samsung-z-flip7-fe-w25-flip-flip-6",
-      "image": "",
-      "image_note": "",
+      "image": "assets/c2-640f3b5f9665917122c4.webp",
+      "image_note": "品牌原页共用机型示意图，未逐机实装验证。",
       "tags": [
         "支架"
       ]
@@ -12379,7 +12379,7 @@
       "price": null,
       "currency": "",
       "product_url": "https://dshopping.docomo.ne.jp/products/0192010125802",
-      "image": "",
+      "image": "assets/c2-62d682c5ed4bbd3b3e82.webp",
       "image_note": "",
       "tags": []
     },
@@ -12682,8 +12682,8 @@
       "price": null,
       "currency": "",
       "product_url": "https://www.smartech.ee/en/products/miscellaneous/dux-ducis-dux-ducis-case-bril-for-samsung-z-fold-sew25-black-20",
-      "image": "",
-      "image_note": "",
+      "image": "assets/c2-b85558ab3f182a8587bc.webp",
+      "image_note": "图示 Fold SE；W25 共用适配据原页，未实装验证。",
       "tags": [
         "支架"
       ]
@@ -12697,8 +12697,8 @@
       "price": null,
       "currency": "",
       "product_url": "https://www.smartech.ee/en/products/miscellaneous/dux-ducis-dux-ducis-case-bril-with-pen-holder-for-samsung-z-fold-sew25-black-20",
-      "image": "",
-      "image_note": "",
+      "image": "assets/c2-4e894d635ed49ca12412.webp",
+      "image_note": "图示 Fold SE；W25 共用适配据原页，未实装验证。",
       "tags": [
         "支架",
         "笔槽 / 笔收纳"
@@ -13823,8 +13823,8 @@
       "price": null,
       "currency": "",
       "product_url": "https://www.poeticcases.com/products/moto-razr-2025-2024-case-with-ring-stand-copy",
-      "image": "",
-      "image_note": "",
+      "image": "assets/c2-fdf9702027e79a70fdd8.webp",
+      "image_note": "原页共用机型示意图，未逐机实装验证。",
       "tags": []
     },
     {
@@ -13836,8 +13836,8 @@
       "price": null,
       "currency": "",
       "product_url": "https://www.poeticcases.com/products/moto-razr-2025-2024-case-with-ring-stand-copy",
-      "image": "",
-      "image_note": "",
+      "image": "assets/c2-fe8fe24b523c665eac50.webp",
+      "image_note": "原页共用机型示意图，未逐机实装验证。",
       "tags": []
     },
     {
@@ -13849,8 +13849,8 @@
       "price": null,
       "currency": "",
       "product_url": "https://www.t-mobile.com/accessory/tech21-evo-clear-case-for-motorola-razr-plus-2026-2025-2024?sku=840459606503",
-      "image": "",
-      "image_note": "",
+      "image": "assets/c2-53b15cfaedf2aa0c56c0.webp",
+      "image_note": "原页共用机型示意图，未逐机实装验证。",
       "tags": []
     },
     {
@@ -13862,8 +13862,8 @@
       "price": null,
       "currency": "",
       "product_url": "https://www.t-mobile.com/accessory/tech21-evo-clear-case-for-motorola-razr-plus-2026-2025-2024?sku=840459606503",
-      "image": "",
-      "image_note": "",
+      "image": "assets/c2-745f657336dd808abef9.webp",
+      "image_note": "原页共用机型示意图，未逐机实装验证。",
       "tags": []
     },
     {
@@ -14278,8 +14278,8 @@
       "price": null,
       "currency": "",
       "product_url": "https://partnertele.com/dux_ducis_futeral_fitt_do_samsung_z_z_flip_7_few25_flip_z_flip_6_niebieski",
-      "image": "",
-      "image_note": "",
+      "image": "assets/c2-c504be8d599217bca893.webp",
+      "image_note": "品牌原页共用机型示意图，未逐机实装验证。",
       "tags": []
     },
     {
@@ -15320,6 +15320,240 @@
       "product_url": "https://nillkin.org/smartphone-accessories/samsung-phones-accessories/samsung-galaxy-fold-7-accessories/nillkin-samsung-galaxy-z-fold7-fold-7-5g-aoge",
       "image": "assets/703f4357d3cde7cfb338dc07.webp",
       "image_note": "沿用同一具体商品的已发布 Fold7 图；W26 共用依据零售原页明确型号声明，不是 W26 实装照片。",
+      "tags": []
+    },
+    {
+      "id": "8b0bfc6fe4c555b78b5a",
+      "phone_key": "honor-magic-v3",
+      "brand": "Wigento",
+      "product_name": "Wigento 旋转磁环护轴壳",
+      "series": "磁环护轴 69396",
+      "price": null,
+      "currency": "",
+      "product_url": "https://www.wigento.de/smartphone/honor/honor-magic-serie/honor-magic-v3/fuer-honor-magic-v3-faltbare-schutz-huelle-360-grad-magnet-ring-schwarz_42563030_133283",
+      "image": "assets/c2-8b0bfc6fe4c555b78b5a.webp",
+      "image_note": "同SKU商品页示意图，未做实物适配或性能测试。",
+      "tags": []
+    },
+    {
+      "id": "6e5153fb87cdd951aa82",
+      "phone_key": "honor-magic-v3",
+      "brand": "Wigento",
+      "product_name": "Wigento 透明混合材质横条支架壳",
+      "series": "PC+TPU 支架 69075",
+      "price": null,
+      "currency": "",
+      "product_url": "https://www.wigento.de/smartphone/honor/honor-magic-serie/honor-magic-v3/fuer-honor-magic-v3-aufstellbare-tpu-hybrid-pc-schutz-huelle-schwarz_42561665",
+      "image": "assets/c2-6e5153fb87cdd951aa82.webp",
+      "image_note": "同SKU商品页示意图，未做实物适配或性能测试。",
+      "tags": []
+    },
+    {
+      "id": "1f7a48ff8198f99dde43",
+      "phone_key": "honor-magic-v3",
+      "brand": "Wigento",
+      "product_name": "Wigento 肤感PC双片壳",
+      "series": "Skin Feel 98513",
+      "price": null,
+      "currency": "",
+      "product_url": "https://www.wigento.de/smartphone/honor/honor-magic-serie/honor-magic-v3/fuer-honor-magic-v3-skin-feel-pc-huelle-mit-full-360-grad-schutz-schwarz_42558826",
+      "image": "assets/c2-1f7a48ff8198f99dde43.webp",
+      "image_note": "同SKU商品页示意图，未做实物适配或性能测试。",
+      "tags": []
+    },
+    {
+      "id": "4c83dfe7f293729cfa65",
+      "phone_key": "honor-magic-v5",
+      "brand": "Wigento",
+      "product_name": "Wigento 透明PC双片壳",
+      "series": "透明PC 69797",
+      "price": null,
+      "currency": "",
+      "product_url": "https://www.wigento.de/smartphone/honor/honor-magic-serie/honor-magic-v5/fuer-honor-magic-v5-stossfeste-kunststoff-schutz-handy-huelle-transparent_42565077_136929",
+      "image": "assets/c2-4c83dfe7f293729cfa65.webp",
+      "image_note": "同SKU商品页示意图，未做实物适配或性能测试。",
+      "tags": []
+    },
+    {
+      "id": "b2b234a53f22da3d017b",
+      "phone_key": "honor-magic-v5",
+      "brand": "Wigento",
+      "product_name": "Wigento 棋盘纹磁环支架背壳",
+      "series": "棋盘纹磁环 71635",
+      "price": null,
+      "currency": "",
+      "product_url": "https://www.wigento.de/smartphone/honor/honor-magic-serie/honor-magic-v5/magsafe-drehkippstaender-muster-honor-magic-v5-5g-kunstleder-schwarz_42571062_148299",
+      "image": "assets/c2-b2b234a53f22da3d017b.webp",
+      "image_note": "同SKU商品页示意图，未做实物适配或性能测试。",
+      "tags": []
+    },
+    {
+      "id": "294e91b00e85741e99ef",
+      "phone_key": "honor-magic-v6",
+      "brand": "Wigento",
+      "product_name": "Wigento PC与铝合金磁环护轴壳",
+      "series": "PC/铝合金磁环 71527",
+      "price": null,
+      "currency": "",
+      "product_url": "https://www.wigento.de/smartphone/honor/honor-magic-serie/honor-magic-v6/9h-schutzglas-stift-samsung-galaxy-z-fold8-ultra-aluminium-schwarz_42570853_147854",
+      "image": "assets/c2-294e91b00e85741e99ef.webp",
+      "image_note": "同SKU商品页示意图，未做实物适配或性能测试。",
+      "tags": []
+    },
+    {
+      "id": "b8f5185839773904d2d7",
+      "phone_key": "honor-magic-v6",
+      "brand": "Wigento",
+      "product_name": "Wigento 碳纹磁吸背壳",
+      "series": "碳纹磁吸 70989",
+      "price": null,
+      "currency": "",
+      "product_url": "https://www.wigento.de/smartphone/honor/honor-magic-serie/honor-magic-v6/magsafe-fuer-honor-magic-v6-magnetisches-case-carbon-struktur-schwarz_42570044_146218",
+      "image": "assets/c2-b8f5185839773904d2d7.webp",
+      "image_note": "同SKU商品页示意图，未做实物适配或性能测试。",
+      "tags": []
+    },
+    {
+      "id": "e46f177a549a5f379372",
+      "phone_key": "honor-magic-v6",
+      "brand": "Wigento",
+      "product_name": "Wigento 棋盘纹磁环支架背壳",
+      "series": "棋盘纹磁环 71640",
+      "price": null,
+      "currency": "",
+      "product_url": "https://www.wigento.de/smartphone/honor/honor-magic-serie/honor-magic-v6/magsafe-drehkippstaender-muster-honor-magic-v6-5g-kunstleder-schwarz_42571067_148304",
+      "image": "assets/c2-e46f177a549a5f379372.webp",
+      "image_note": "同SKU商品页示意图，未做实物适配或性能测试。",
+      "tags": []
+    },
+    {
+      "id": "314121f7418668399caa",
+      "phone_key": "honor-magic-v6",
+      "brand": "GKK",
+      "product_name": "GKK 编织纹磁吸背壳",
+      "series": "编织纹磁吸 185481",
+      "price": null,
+      "currency": "",
+      "product_url": "https://dealy.com/honor-magic-v6/185481-519259-coque-honor-magic-v6-magnetique-texture-tressee-gkk.html",
+      "image": "assets/c2-314121f7418668399caa.webp",
+      "image_note": "同SKU商品页示意图，未做实物适配或性能测试。",
+      "tags": []
+    },
+    {
+      "id": "be9eedb90433832fc6f2",
+      "phone_key": "honor-magic-v6",
+      "brand": "GKK",
+      "product_name": "GKK Full Cover PU护轴相机支架壳",
+      "series": "Full Cover Case",
+      "price": null,
+      "currency": "",
+      "product_url": "https://mobel.bg/products/kozhen-kalaf-za-honor-magic-v6-full-cover-case-cheren",
+      "image": "assets/c2-be9eedb90433832fc6f2.webp",
+      "image_note": "同SKU商品页示意图，未做实物适配或性能测试。",
+      "tags": []
+    },
+    {
+      "id": "588340b5dd268c9b6bfc",
+      "phone_key": "honor-magic-v6",
+      "brand": "GKK",
+      "product_name": "GKK 旋转磁环护轴PC壳",
+      "series": "旋转磁环 6601217073",
+      "price": null,
+      "currency": "",
+      "product_url": "https://www.tvcmall.com/details/gkk-for-honor-magic-v6-5g-case-kickstand-magnetic-hinge-protection-pc-phone-cover-with-hd-screen-protector-silver-sku6601217073b.html",
+      "image": "assets/c2-588340b5dd268c9b6bfc.webp",
+      "image_note": "同SKU商品页示意图，未做实物适配或性能测试。",
+      "tags": []
+    },
+    {
+      "id": "45f9a3248721cf6c65fb",
+      "phone_key": "oppo-find-n5",
+      "brand": "NILLKIN",
+      "product_name": "NILLKIN Find N5 Iceblade Fold 镜盖支架保护壳",
+      "series": "Iceblade Fold 镜盖支架保护壳",
+      "price": null,
+      "currency": "",
+      "product_url": "https://nillkin.org/smartphone-accessories/oppo-phones-accessories/oppo-find-n5-accessories/nillkin-oppo-find-n5-iceblade-fold",
+      "image": "assets/c2-45f9a3248721cf6c65fb.webp",
+      "image_note": "具体商品页示意图，未做实物适配或磁吸性能测试。",
+      "tags": []
+    },
+    {
+      "id": "9e9a2ab35e622abbddad",
+      "phone_key": "oppo-find-n5",
+      "brand": "NILLKIN",
+      "product_name": "NILLKIN Find N5 Frosted Shield Prop 镜盖支架保护壳",
+      "series": "Frosted Shield Prop 镜盖支架保护壳",
+      "price": null,
+      "currency": "",
+      "product_url": "https://nillkin.org/smartphone-accessories/oppo-phones-accessories/oppo-find-n5-accessories/nillkin-oppo-find-n5-frosted-shield-prop",
+      "image": "assets/c2-9e9a2ab35e622abbddad.webp",
+      "image_note": "具体商品页示意图，未做实物适配或磁吸性能测试。",
+      "tags": []
+    },
+    {
+      "id": "023e248fb0f9ff996b6d",
+      "phone_key": "oppo-find-n5",
+      "brand": "NILLKIN",
+      "product_name": "NILLKIN Find N5 Iceblade Fold 磁吸镜盖支架保护壳",
+      "series": "Iceblade Fold 磁吸镜盖支架保护壳",
+      "price": null,
+      "currency": "",
+      "product_url": "https://nillkin.org/smartphone-accessories/oppo-phones-accessories/oppo-find-n5-accessories/nillkin-oppo-find-n5-iceblade-fold-magnetic",
+      "image": "assets/c2-023e248fb0f9ff996b6d.webp",
+      "image_note": "具体商品页示意图，未做实物适配或磁吸性能测试。",
+      "tags": []
+    },
+    {
+      "id": "9389b56fea83230565e2",
+      "phone_key": "huawei-pura-x",
+      "brand": "SULADA",
+      "product_name": "SULADA pura x 碳纹指环支架护轴保护壳",
+      "series": "碳纹指环支架护轴保护壳",
+      "price": null,
+      "currency": "",
+      "product_url": "https://www.ebay.com/itm/116633629377",
+      "image": "assets/c2-9389b56fea83230565e2.webp",
+      "image_note": "",
+      "tags": []
+    },
+    {
+      "id": "5a95c60dac0da68c38c9",
+      "phone_key": "xiaomi-mix-flip",
+      "brand": "Avizar",
+      "product_name": "Avizar MIX Flip 透明护轴保护壳",
+      "series": "透明护轴保护壳",
+      "price": null,
+      "currency": "",
+      "product_url": "https://www.galaxus.de/en/s1/product/avizar-flextough-case-series-xiaomi-mix-flip-mobile-phone-covers-49619932",
+      "image": "assets/c2-5a95c60dac0da68c38c9.webp",
+      "image_note": "",
+      "tags": []
+    },
+    {
+      "id": "7a65cbf1acf32231a5a9",
+      "phone_key": "xiaomi-mix-flip",
+      "brand": "Avizar",
+      "product_name": "Avizar MIX Flip 透明双片保护壳",
+      "series": "透明双片保护壳",
+      "price": null,
+      "currency": "",
+      "product_url": "https://www.digitec.ch/en/s1/product/avizar-flextough-case-series-xiaomi-mix-flip-mobile-phone-covers-49619917",
+      "image": "assets/c2-7a65cbf1acf32231a5a9.webp",
+      "image_note": "",
+      "tags": []
+    },
+    {
+      "id": "1e5801fe58743fcb05d8",
+      "phone_key": "nubia-flip-5g",
+      "brand": "IMAK",
+      "product_name": "IMAK nubia Flip 5G 羽翼II Pro透明双片保护壳",
+      "series": "Crystal Case II Pro",
+      "price": null,
+      "currency": "",
+      "product_url": "https://www.bestbuy.ca/en-ca/product/phone-case-for-zte-nubia-flip-5g/19696365",
+      "image": "assets/c2-1e5801fe58743fcb05d8.webp",
+      "image_note": "",
       "tags": []
     }
   ],
