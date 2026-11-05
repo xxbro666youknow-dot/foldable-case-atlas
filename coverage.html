@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>逐机型进度 · FOLD / CASE</title>
+  <link rel="stylesheet" href="site.css">
+  <link rel="stylesheet" href="coverage.css">
+</head>
+<body>
+  <header class="top"><a class="logo" href="index.html">FOLD / CASE</a><a class="top-link" href="products.html">全部手机壳</a></header>
+  <main class="container coverage">
+    <a class="back" href="index.html">← 返回机型图鉴</a>
+    <div class="page-head"><div><p class="muted">第二轮收录进度</p><h1>每款机型，收录了多少手机壳</h1><p id="updated" class="site-count-note"></p></div></div>
+    <div id="summary" class="coverage-summary" aria-label="收录汇总"></div>
+    <p class="coverage-note">样本按具体保护壳去重，品牌数单列。同款颜色、纹理及重复卖家不重复计数；明确共同适配的同款，在各机型各计 1，全站只计 1。未达 30 表示当前证据支持的收录量不足，不代表市场上没有更多商品。</p>
+    <div class="product-filters">
+      <label>查找机型<input id="coverage-query" type="search" placeholder="手机品牌或型号" aria-label="查找机型"></label>
+      <label>显示范围<select id="coverage-scope" aria-label="进度范围"><option value="all">全部机型</option><option value="gap">未达 30</option><option value="zero">零有效样本</option><option value="met">已达 30</option></select></label>
+      <label>排序<select id="coverage-sort" aria-label="进度排序"><option value="count">样本从少到多</option><option value="gain">净增从多到少</option><option value="model">按手机品牌与型号</option></select></label>
+      <a class="coverage-download" href="coverage-data.json" download>下载逐机型数据</a>
+    </div>
+    <p id="coverage-status" class="result" role="status">正在载入逐机型进度…</p>
+    <div id="coverage-grid" class="coverage-grid"></div>
+    <p id="image-progress" class="coverage-note"></p>
+    <p class="coverage-note">图片数量按公开适配记录统计，同款跨机型图可能复用。共用商品图的适配说明随商品保留；公开图像与商品页不等于实物适配、性能或当前库存验证。Duo 保留 186 条展示记录，其中 183 条符合当前有效样本口径。</p>
+  </main>
+  <script src="coverage.js?v=20261106"></script>
+</body>
+</html>
