@@ -8,7 +8,7 @@
   return;
  }
  const norm=s=>(s||'').trim().toLocaleLowerCase(),el=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!=null)n.textContent=text;return n};
- let data;try{const r=await fetch('catalog.json');if(!r.ok)throw Error();data=await r.json()}catch(e){$('#result').textContent='暂时无法加载，请稍后重试。';return}
+ let data;try{const r=await fetch('catalog.json', {cache: 'no-store'});if(!r.ok)throw Error();data=await r.json()}catch(e){$('#result').textContent='暂时无法加载，请稍后重试。';return}
  const phones=data.phones||[],products=(data.products||[]).filter(p=>p.brand&&!/待核|未核|待判|未明确|未知|无品牌|来源|零售|商家|店铺|店名|不明|未确认|待查|待确认|待验证|待识别|声称|未证|待审|品牌未|疑似|渠道/.test(p.brand)),phoneMap=new Map(phones.map(p=>[p.phone_key,p]));
  const brandAliases = new Map([
   ['loof / looco', 'LOOF'],
@@ -38,7 +38,7 @@
   siteBrandCount.textContent = `${products.length} 条手机壳适配记录 · ${phones.length} 款机型 · ${brands.size} 个保护壳品牌`;
   siteBrandCount.hidden = false;
   try {
-   const response = await fetch('count-audit.json');
+   const response = await fetch('count-audit.json', {cache: 'no-store'});
    if (response.ok) {
     const checked = await response.json();
     if (checked.relationship_count === data.products.length && Number.isInteger(checked.total_counted) && checked.total_counted === checked.non_duo_counted + checked.duo_counted) {
@@ -108,6 +108,7 @@
   if (phoneMap.has(phoneKey)) phone.value = phoneKey;
   const representatives = new Set(audit?.counted_representative_ids || []);
   const members = new Set(audit?.counted_product_ids || []);
+  const groupById = new Map((audit?.groups || []).flatMap(group => group.relationship_ids.map(id => [id, group.count_key])));
   const visibleRepresentatives = products.filter(p => representatives.has(p.id)).length;
   const hasCountScope = representatives.size > 0 && visibleRepresentatives === audit?.total_counted;
   $('#product-scope-field').hidden = !hasCountScope;
@@ -134,11 +135,20 @@
    const query = norm(input.value);
    filtered = products.filter(product => {
     if (phone.value && product.phone_key !== phone.value) return false;
-    if (scope.value === 'counted' && !representatives.has(product.id)) return false;
+    if (scope.value === 'counted' && !members.has(product.id)) return false;
     const model = phoneMap.get(product.phone_key);
     const terms = norm([model?.brand, model?.model, product.brand, brandName(product.brand), product.product_name, product.series].join(' '));
     return !query || query.split(/\s+/).every(term => terms.includes(term));
    });
+   if (scope.value === 'counted') {
+    // 每组在当前机型与搜索范围内选一条，避免共用壳在其他适配机型下消失。
+    const chosenByGroup = new Map();
+    for (const product of filtered) {
+     const key = groupById.get(product.id);
+     if (!chosenByGroup.has(key) || representatives.has(product.id)) chosenByGroup.set(key, product.id);
+    }
+    filtered = filtered.filter(product => chosenByGroup.get(groupById.get(product.id)) === product.id);
+   }
    visible = 0;
    grid.replaceChildren();
    appendPage();
