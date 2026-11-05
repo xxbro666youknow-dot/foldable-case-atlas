@@ -2,6 +2,9 @@
 
 .site-brand-count,.item-brand-count{font-size:12px;color:#666;font-variant-numeric:tabular-nums}
 .site-brand-count{margin:7px 0 0}
+.site-product-count{font-size:16px;line-height:1.5;font-weight:600;margin:12px 0 0;font-variant-numeric:tabular-nums}
+.site-count-note{font-size:12px;line-height:1.6;color:#666;max-width:680px;margin:5px 0 0}
+.item-name,.item-note,.item-model,.item-brand{overflow-wrap:anywhere}
 .item-brand-count{margin-top:3px}
 
 .bundles{margin-top:28px;padding-top:18px;border-top:1px solid #e6e6e6}

@@ -1,5 +1,5 @@
 (async()=>{
- const sideExcluded=new Set(["HONOR 商店关联 PITAKA（壳制造方未直核）", "Helix（Flipkart 平台标示）", "IMAK / 艾美克（壳品牌，非手机厂原厂）"]);
+ const sideExcluded=new Set(["HONOR 商店关联 PITAKA（壳制造方未直核）", "Helix（Flipkart 平台标示）"]);
  const $=s=>document.querySelector(s),params=new URLSearchParams(location.search),isCase=location.pathname.endsWith('/case.html'),phoneKey=params.get('phone'),brandParam=params.get('brand')||'',phoneBrand=params.get('phoneBrand')||'';
  const duoKey = 'apple-iphone-duo';
  if (isCase && phoneKey === duoKey) {
@@ -11,6 +11,7 @@
  const phones=data.phones||[],products=(data.products||[]).filter(p=>p.brand&&!/待核|未核|待判|未明确|未知|无品牌|来源|零售|商家|店铺|店名|不明|未确认|待查|待确认|待验证|待识别|声称|未证|待审|品牌未|疑似|渠道/.test(p.brand)),phoneMap=new Map(phones.map(p=>[p.phone_key,p]));
  const brandAliases = new Map([
   ['loof / looco', 'LOOF'],
+  ['imak / 艾美克（壳品牌，非手机厂原厂）', 'IMAK'],
   ['urban armor gear', 'UAG']
  ]);
  const brandName = name => brandAliases.get(norm(name)) || name.trim();
@@ -27,8 +28,21 @@
  }
  const siteBrandCount = $('#site-brand-count');
  if (siteBrandCount && !brandParam) {
-  siteBrandCount.textContent = `全站收录 ${brands.size} 个保护壳品牌`;
+  siteBrandCount.textContent = `${brands.size} 个保护壳品牌 · ${phones.length} 款机型 · ${products.length} 条适配记录`;
   siteBrandCount.hidden = false;
+  try {
+   const response = await fetch('count-audit.json');
+   if (response.ok) {
+    const audit = await response.json();
+    if (audit.relationship_count === data.products.length && Number.isInteger(audit.total_counted) && audit.total_counted === audit.non_duo_counted + audit.duo_counted) {
+     const summary = el('p', 'site-product-count', `按现有证据核算，至少 ${audit.total_counted} 件商品及明确机型变体`);
+     const note = el('p', 'site-count-note', `非 Duo ${audit.non_duo_counted} 件 · Duo ${audit.duo_counted} 件。Duo 专题保留 186 条原记录；同款颜色、重复卖家和套装内重复壳不累加。`);
+     const detail = el('p', 'site-count-note', `核算日期 ${audit.checked_date}。未核实记录不计入上述数量；随盒壳与配件套装单列。售卖状态以来源页面为准。`);
+     siteBrandCount.before(summary);
+     siteBrandCount.after(note, detail);
+    }
+   }
+  } catch (_) { /* 数量审计暂不可用时，仍保留品牌、机型与适配记录口径。 */ }
  }
  const menu=$('#brands');let selectedBrand='',selectedFeature='';const title=$('#title'),input=$('#query'),grid=$('#grid'),result=$('#result'),empty=$('#empty');
  const safeLink=u=>/^https?:\/\//i.test(u||'');
@@ -41,7 +55,7 @@
   return a
  }
  function asTags(p){return Array.isArray(p.tags)?p.tags:[]}
- function render(){let q=norm(input.value),items;if(isCase){items=products.filter(p=>p.phone_key===phoneKey&&(!selectedBrand||brandKey(p.brand)===brandKey(selectedBrand))&&(!selectedFeature||asTags(p).includes(selectedFeature))&&(!q||norm([p.brand,p.product_name,p.series].join(' ')).includes(q)))}else if(brandParam){items=products.filter(p=>brandKey(p.brand)===brandKey(brandParam)&&(!q||norm([p.product_name,phoneMap.get(p.phone_key)?.model].join(' ')).includes(q)))}else{items=phones.filter(p=>(!phoneBrand||norm(p.brand)===norm(phoneBrand))&&(!q||norm([p.brand,p.model].join(' ')).includes(q))).slice().sort((a,b)=>String(b.date||'').localeCompare(String(a.date||'')))}grid.replaceChildren(...items.map(p=>isCase||brandParam?productCard(p,!!brandParam):phoneCard(p)));result.textContent=items.length+' 项';empty.hidden=items.length!==0}
+ function render(){let q=norm(input.value),items;if(isCase){items=products.filter(p=>p.phone_key===phoneKey&&(!selectedBrand||brandKey(p.brand)===brandKey(selectedBrand))&&(!selectedFeature||asTags(p).includes(selectedFeature))&&(!q||norm([p.brand,p.product_name,p.series].join(' ')).includes(q)))}else if(brandParam){items=products.filter(p=>brandKey(p.brand)===brandKey(brandParam)&&(!q||norm([p.product_name,phoneMap.get(p.phone_key)?.model].join(' ')).includes(q)))}else{items=phones.filter(p=>(!phoneBrand||norm(p.brand)===norm(phoneBrand))&&(!q||norm([p.brand,p.model].join(' ')).includes(q))).slice().sort((a,b)=>String(b.date||'').localeCompare(String(a.date||'')))}grid.replaceChildren(...items.map(p=>isCase||brandParam?productCard(p,!!brandParam):phoneCard(p)));result.textContent=items.length+(isCase?' 条适配记录':brandParam?' 条商品记录':' 款机型');empty.hidden=items.length!==0}
  if(isCase){let phone=phoneMap.get(phoneKey);title.textContent=phone?.model||'保护壳';$('#phone-brand').textContent=phone?.brand||'';let caseItems=products.filter(p=>p.phone_key===phoneKey);
  const bundleItems = (data.bundles || []).filter(item => item.phone_key === phoneKey && safeLink(item.product_url));
  if (phone && caseItems.length === 0) empty.textContent = bundleItems.length ? '暂未收录独立品牌保护壳' : '这个机型暂未收录保护壳';
