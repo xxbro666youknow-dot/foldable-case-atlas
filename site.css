@@ -3,3 +3,6 @@
 .site-brand-count,.item-brand-count{font-size:12px;color:#666;font-variant-numeric:tabular-nums}
 .site-brand-count{margin:7px 0 0}
 .item-brand-count{margin-top:3px}
+
+.bundles{margin-top:28px;padding-top:18px;border-top:1px solid #e6e6e6}
+.bundles ul{margin:0;padding-left:18px}
