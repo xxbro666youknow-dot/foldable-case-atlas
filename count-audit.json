@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "checked_date": "2026-11-05",
-  "total_counted": 923,
-  "non_duo_counted": 740,
+  "total_counted": 935,
+  "non_duo_counted": 752,
   "duo_counted": 183,
   "duo_display_records": 186,
-  "relationship_count": 1022,
-  "not_counted_relationships": 65,
-  "pending_relationships": 65,
+  "relationship_count": 1033,
+  "not_counted_relationships": 64,
+  "pending_relationships": 64,
   "merged_relationships": 34,
   "counting_rule": "保守下界：按已核商品身份及明确机型变体计数；同商品跨机型兼容、同款重复来源、颜色或附加膜的套装不重复计数。商品关系与品牌数分别显示。",
   "verification_scope": "沿用既有商品与机型证据，核对当前公开目录和本机证据存续，并排查重复；历史售卖状态不作为当前库存证明。",
@@ -21,6 +21,7 @@
     "00e0866feddbe7778779",
     "00f1f1b3757c6ceedc64",
     "0157dd1c8b13b97560e7",
+    "01a31767b6a5c325c7a7",
     "0214c5690e0f5431928e",
     "024564f2466d1b6eca2d",
     "0278563b9401832e0190",
@@ -48,6 +49,7 @@
     "08d17aef6071b0845f94",
     "08f0f998a4ca16c002a0",
     "09253f4eff2c980db607",
+    "092a9bb6a1d23c42799c",
     "093dba8f87c1606f9e24",
     "09a54941bb183ab33067",
     "09a9cd5050dd03205f5d",
@@ -162,6 +164,7 @@
     "27fa8153c6d404e85ce0",
     "286d148ce8e83dbf3e4c",
     "287a78047d53145d4c8f",
+    "28dc3c2a8ddeb2bb33b2",
     "29a85a98466df8f237ff",
     "2a214bfa79d06b6033c4",
     "2a724dcbd1232efba3f6",
@@ -251,6 +254,7 @@
     "40d8d67cacd2ffac1cfb",
     "412a188a0f621f4a7e34",
     "4163bd6661016e0d62d5",
+    "41c97219d41deb128303",
     "41d907f75a52797c8eef",
     "41dd5a42546c891ec47e",
     "41e5fa7d7342cc2cc17a",
@@ -262,6 +266,7 @@
     "43aefd6240c337eea034",
     "44767dc6207386764153",
     "44cc9bad28c7676881ac",
+    "4526690993c59d0ea50d",
     "452ca61936d893c477af",
     "456315eddab29de7f6fe",
     "45a1dc9f63cb47922ce0",
@@ -367,6 +372,7 @@
     "5df0e145a7159d707219",
     "5e40150bbcbb41082503",
     "5e45a4f8d51784a34034",
+    "5eb8999e924c8590a8ca",
     "5ed254f77beea435bbf3",
     "5ee6819788b267cdefe6",
     "5f20efc684007354828d",
@@ -435,6 +441,7 @@
     "6d8121bbfa4078e1dc45",
     "6da16214fc186b1f32f7",
     "6dcaf81d162f809423ae",
+    "6dced37ae97641094cec",
     "6e1f042cb5b8c4ca51e5",
     "6e33ecabff68fb793902",
     "6e786bf20bf196fa0547",
@@ -537,6 +544,7 @@
     "85e341bb099d6d9e700b",
     "8622e16bac3df42a0d4a",
     "8672bb51cbd9d1472d29",
+    "86b54d8b8eaab21d00ba",
     "8743200a766c1a4ccb0c",
     "8750d214fc249a77e811",
     "88b37bba49c08275c2b7",
@@ -557,6 +565,7 @@
     "8d477f7a9885228b496f",
     "8db430beb249493ea77f",
     "8dbc5ac2987c4f46151c",
+    "8e1c9ec18e61962453f6",
     "8e2acb01546b47bb1184",
     "8e58ba0ae1c3f878822e",
     "8e5b7acd674018b44943",
@@ -637,6 +646,7 @@
     "a2ae16d824afaab224e1",
     "a2bdbb51f3829fc073a6",
     "a3061112247850e91c14",
+    "a309446816c885a302c2",
     "a31f82eb66bcabe72050",
     "a437966d19a3a1b6774c",
     "a4717c1dfa08310a7650",
@@ -781,6 +791,7 @@
     "cde009b44fbabc4118ff",
     "ce3be66ab3ad444f69ae",
     "ce6e42ebdc61899f2169",
+    "cea370fe75f63632b444",
     "ceb58fbed1bd94b3dc9e",
     "ceee8ec73c794481c1fc",
     "cef3e90c272ad4c1be55",
@@ -944,6 +955,7 @@
     "f8f579b322ccdb987014",
     "f95af067f7d7a2bb3e6a",
     "f96e04b9423b222b9f80",
+    "f9859a4de2e679dc4937",
     "f9c40f0d3e9b1b7c33a5",
     "fa3e408709a5fc62937e",
     "fa888caeb8f0d0a36642",
@@ -980,6 +992,7 @@
     "00e0866feddbe7778779",
     "00f1f1b3757c6ceedc64",
     "0157dd1c8b13b97560e7",
+    "01a31767b6a5c325c7a7",
     "0214c5690e0f5431928e",
     "024564f2466d1b6eca2d",
     "0278563b9401832e0190",
@@ -1006,6 +1019,7 @@
     "08d17aef6071b0845f94",
     "08f0f998a4ca16c002a0",
     "09253f4eff2c980db607",
+    "092a9bb6a1d23c42799c",
     "093dba8f87c1606f9e24",
     "09a54941bb183ab33067",
     "09a9cd5050dd03205f5d",
@@ -1116,6 +1130,7 @@
     "27fa8153c6d404e85ce0",
     "286d148ce8e83dbf3e4c",
     "287a78047d53145d4c8f",
+    "28dc3c2a8ddeb2bb33b2",
     "29a85a98466df8f237ff",
     "2a214bfa79d06b6033c4",
     "2a724dcbd1232efba3f6",
@@ -1204,6 +1219,7 @@
     "40d8d67cacd2ffac1cfb",
     "412a188a0f621f4a7e34",
     "4163bd6661016e0d62d5",
+    "41c97219d41deb128303",
     "41d907f75a52797c8eef",
     "41dd5a42546c891ec47e",
     "41e5fa7d7342cc2cc17a",
@@ -1214,6 +1230,7 @@
     "43aefd6240c337eea034",
     "44767dc6207386764153",
     "44cc9bad28c7676881ac",
+    "4526690993c59d0ea50d",
     "456315eddab29de7f6fe",
     "45a1dc9f63cb47922ce0",
     "45d48b3cb9c824adcf8b",
@@ -1313,6 +1330,7 @@
     "5df0e145a7159d707219",
     "5e40150bbcbb41082503",
     "5e45a4f8d51784a34034",
+    "5eb8999e924c8590a8ca",
     "5ed254f77beea435bbf3",
     "5ee6819788b267cdefe6",
     "5f20efc684007354828d",
@@ -1378,6 +1396,7 @@
     "6d8121bbfa4078e1dc45",
     "6da16214fc186b1f32f7",
     "6dcaf81d162f809423ae",
+    "6dced37ae97641094cec",
     "6e1f042cb5b8c4ca51e5",
     "6e33ecabff68fb793902",
     "6e786bf20bf196fa0547",
@@ -1474,6 +1493,7 @@
     "85e341bb099d6d9e700b",
     "8622e16bac3df42a0d4a",
     "8672bb51cbd9d1472d29",
+    "86b54d8b8eaab21d00ba",
     "8743200a766c1a4ccb0c",
     "8750d214fc249a77e811",
     "88b37bba49c08275c2b7",
@@ -1493,6 +1513,7 @@
     "8d477f7a9885228b496f",
     "8db430beb249493ea77f",
     "8dbc5ac2987c4f46151c",
+    "8e1c9ec18e61962453f6",
     "8e2acb01546b47bb1184",
     "8e58ba0ae1c3f878822e",
     "8e5b7acd674018b44943",
@@ -1573,6 +1594,7 @@
     "a2ae16d824afaab224e1",
     "a2bdbb51f3829fc073a6",
     "a3061112247850e91c14",
+    "a309446816c885a302c2",
     "a31f82eb66bcabe72050",
     "a437966d19a3a1b6774c",
     "a4717c1dfa08310a7650",
@@ -1712,6 +1734,7 @@
     "cde009b44fbabc4118ff",
     "ce3be66ab3ad444f69ae",
     "ce6e42ebdc61899f2169",
+    "cea370fe75f63632b444",
     "ceb58fbed1bd94b3dc9e",
     "ceee8ec73c794481c1fc",
     "cef3e90c272ad4c1be55",
@@ -1870,6 +1893,7 @@
     "f8f579b322ccdb987014",
     "f95af067f7d7a2bb3e6a",
     "f96e04b9423b222b9f80",
+    "f9859a4de2e679dc4937",
     "f9c40f0d3e9b1b7c33a5",
     "fa3e408709a5fc62937e",
     "fa888caeb8f0d0a36642",
@@ -1957,6 +1981,13 @@
       "representative_id": "0157dd1c8b13b97560e7",
       "relationship_ids": [
         "0157dd1c8b13b97560e7"
+      ]
+    },
+    {
+      "count_key": "02b7192e4da33fa4cb3f",
+      "representative_id": "01a31767b6a5c325c7a7",
+      "relationship_ids": [
+        "01a31767b6a5c325c7a7"
       ]
     },
     {
@@ -2140,6 +2171,13 @@
       "representative_id": "09253f4eff2c980db607",
       "relationship_ids": [
         "09253f4eff2c980db607"
+      ]
+    },
+    {
+      "count_key": "caae1bbcfd3459585875",
+      "representative_id": "092a9bb6a1d23c42799c",
+      "relationship_ids": [
+        "092a9bb6a1d23c42799c"
       ]
     },
     {
@@ -2917,6 +2955,13 @@
       ]
     },
     {
+      "count_key": "4dd5e710621b552b13e0",
+      "representative_id": "28dc3c2a8ddeb2bb33b2",
+      "relationship_ids": [
+        "28dc3c2a8ddeb2bb33b2"
+      ]
+    },
+    {
       "count_key": "e22610d676a2e6cbf95b",
       "representative_id": "29a85a98466df8f237ff",
       "relationship_ids": [
@@ -3535,6 +3580,13 @@
       ]
     },
     {
+      "count_key": "f49ce81581e917c570b7",
+      "representative_id": "41c97219d41deb128303",
+      "relationship_ids": [
+        "41c97219d41deb128303"
+      ]
+    },
+    {
       "count_key": "a85ad78a6fdd9b565b8e",
       "representative_id": "41d907f75a52797c8eef",
       "relationship_ids": [
@@ -3602,6 +3654,13 @@
       "representative_id": "44cc9bad28c7676881ac",
       "relationship_ids": [
         "44cc9bad28c7676881ac"
+      ]
+    },
+    {
+      "count_key": "559eae9311559e0df195",
+      "representative_id": "4526690993c59d0ea50d",
+      "relationship_ids": [
+        "4526690993c59d0ea50d"
       ]
     },
     {
@@ -4305,6 +4364,13 @@
       ]
     },
     {
+      "count_key": "3e927a5a6fb9661fb18a",
+      "representative_id": "5eb8999e924c8590a8ca",
+      "relationship_ids": [
+        "5eb8999e924c8590a8ca"
+      ]
+    },
+    {
       "count_key": "ccdbf4ae0111e728f6d4",
       "representative_id": "5ed254f77beea435bbf3",
       "relationship_ids": [
@@ -4760,6 +4826,13 @@
       "representative_id": "6dcaf81d162f809423ae",
       "relationship_ids": [
         "6dcaf81d162f809423ae"
+      ]
+    },
+    {
+      "count_key": "1b74605a92f56854e42f",
+      "representative_id": "6dced37ae97641094cec",
+      "relationship_ids": [
+        "6dced37ae97641094cec"
       ]
     },
     {
@@ -5437,6 +5510,13 @@
       ]
     },
     {
+      "count_key": "b7b16de055e254726c0f",
+      "representative_id": "86b54d8b8eaab21d00ba",
+      "relationship_ids": [
+        "86b54d8b8eaab21d00ba"
+      ]
+    },
+    {
       "count_key": "ce84e9fe53223210d96c",
       "representative_id": "8743200a766c1a4ccb0c",
       "relationship_ids": [
@@ -5567,6 +5647,13 @@
       "representative_id": "8dbc5ac2987c4f46151c",
       "relationship_ids": [
         "8dbc5ac2987c4f46151c"
+      ]
+    },
+    {
+      "count_key": "5b1349a3564dbf8d0593",
+      "representative_id": "8e1c9ec18e61962453f6",
+      "relationship_ids": [
+        "8e1c9ec18e61962453f6"
       ]
     },
     {
@@ -6128,6 +6215,13 @@
       "representative_id": "a3061112247850e91c14",
       "relationship_ids": [
         "a3061112247850e91c14"
+      ]
+    },
+    {
+      "count_key": "92f64b9a43bfd4e81776",
+      "representative_id": "a309446816c885a302c2",
+      "relationship_ids": [
+        "a309446816c885a302c2"
       ]
     },
     {
@@ -7111,6 +7205,13 @@
       "representative_id": "ce6e42ebdc61899f2169",
       "relationship_ids": [
         "ce6e42ebdc61899f2169"
+      ]
+    },
+    {
+      "count_key": "de4ef9b8db4e31f0d203",
+      "representative_id": "cea370fe75f63632b444",
+      "relationship_ids": [
+        "cea370fe75f63632b444"
       ]
     },
     {
@@ -8220,6 +8321,13 @@
       "representative_id": "f96e04b9423b222b9f80",
       "relationship_ids": [
         "f96e04b9423b222b9f80"
+      ]
+    },
+    {
+      "count_key": "f29427d7395ceb616e6b",
+      "representative_id": "f9859a4de2e679dc4937",
+      "relationship_ids": [
+        "f9859a4de2e679dc4937"
       ]
     },
     {
