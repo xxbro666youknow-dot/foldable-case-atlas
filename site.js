@@ -52,6 +52,14 @@
    }
   } catch (_) { /* 数量审计暂不可用时，仍保留品牌、机型与适配记录口径。 */ }
  }
+ const phoneSampleCounts = new Map();
+ if (audit && Array.isArray(audit.groups)) {
+  const productsById = new Map(products.map(product => [product.id, product]));
+  for (const group of audit.groups) {
+   const coveredPhones = new Set((group.relationship_ids || []).map(id => productsById.get(id)?.phone_key).filter(Boolean));
+   for (const key of coveredPhones) phoneSampleCounts.set(key, (phoneSampleCounts.get(key) || 0) + 1);
+  }
+ }
  const menu=$('#brands');let selectedBrand='',selectedFeature='';const title=$('#title'),input=$('#query'),grid=$('#grid'),result=$('#result'),empty=$('#empty');
  const safeLink=u=>/^https?:\/\//i.test(u||'');
  function picture(url, alt, productSource) {
@@ -83,9 +91,8 @@
  function price(p){if(p.price===undefined||p.price===null||p.price==='')return '';return [p.currency||'',p.price].join(' ').trim()}
  function productCard(p,showPhone){let a=el('article','item');a.append(picture(p.image,p.product_name,p.product_url));a.append(el('div','item-brand',p.brand||''));a.append(el('div','item-name',p.product_name||''));if(showPhone)a.append(el('div','item-model',phoneMap.get(p.phone_key)?.model||''));let z=price(p);if(z)a.append(el('div','item-price',z));if(p.image_note)a.append(el('div','item-note',p.image_note));if(safeLink(p.product_url)){let link=el('a','item-source','查看来源 ↗');link.href=p.product_url;link.target='_blank';link.rel='noopener noreferrer';a.append(link)}return a}
  function phoneCard(p){let a=el('article','item');let link=el('a');link.href=p.phone_key===duoKey?'duo.html':'case.html?phone='+encodeURIComponent(p.phone_key);link.append(picture(p.image,p.model));a.append(link);let b=el('a','item-brand',p.brand||'');b.href='index.html?phoneBrand='+encodeURIComponent(p.brand||'');a.append(b);let n=el('a','item-name',p.model||'');n.href=link.href;a.append(n);
-  const relationships = phoneProducts.get(p.phone_key) || 0;
-  const count = phoneBrands.get(p.phone_key)?.size || 0;
-  a.append(el('div', 'item-brand-count', relationships ? `${relationships} 条手机壳适配记录 · ${count} 个品牌` : '暂未收录独立手机壳'));
+  const sampleCount = phoneSampleCounts.get(p.phone_key) || 0;
+  a.append(el('div', 'item-brand-count', audit ? `已收录 ${sampleCount} 个有效手机壳样本` : '手机壳样本数待核'));
   return a
  }
  function setupProductBrowser() {
