@@ -10855,8 +10855,8 @@
       "price": 1000,
       "currency": "JPY",
       "product_url": "https://www.looco.shop/products/detail/55803",
-      "image": "",
-      "image_note": "",
+      "image": "assets/c2-6035accb48f7fb8c827f.webp",
+      "image_note": "Libero Flip／nubia Flip 5G 共用商品页示意图，未逐机实装验证。",
       "tags": []
     },
     {
@@ -10868,8 +10868,8 @@
       "price": 1480,
       "currency": "JPY",
       "product_url": "https://www.looco.shop/products/detail/55801",
-      "image": "",
-      "image_note": "",
+      "image": "assets/c2-c135b6a5cc7d8e543140.webp",
+      "image_note": "Libero Flip／nubia Flip 5G 共用商品页示意图，未逐机实装验证。",
       "tags": []
     },
     {
@@ -10881,8 +10881,8 @@
       "price": null,
       "currency": "",
       "product_url": "https://brand.softbankselection.jp/item/4573197056830.html",
-      "image": "",
-      "image_note": "",
+      "image": "assets/c2-bb68d1a4044f7fbb691b.webp",
+      "image_note": "Libero Flip 具体商品页示意图，未做实物适配测试。",
       "tags": [
         "透明"
       ]
@@ -11240,8 +11240,8 @@
       "price": 513.6,
       "currency": "TRY",
       "product_url": "https://www.elektromaxx.net/urun/microcase-tecno-phantom-v-flip2-askilikli-standli-acacakli-deri-kilif-al5118",
-      "image": "",
-      "image_note": "",
+      "image": "assets/c2-ad5378a82cb07148ec0f.webp",
+      "image_note": "同型号商品页红色示意图，未做实物适配测试。",
       "tags": [
         "支架"
       ]
@@ -11255,8 +11255,8 @@
       "price": 513.6,
       "currency": "TRY",
       "product_url": "https://www.elektromaxx.net/urun/microcase-tecno-phantom-v-flip2-retro-tasarim-kartlikli-deri-kilif-al5118",
-      "image": "",
-      "image_note": "",
+      "image": "assets/c2-089b3283be58832cbe90.webp",
+      "image_note": "同型号商品页蓝色示意图，未做实物适配测试。",
       "tags": []
     },
     {
@@ -12584,8 +12584,8 @@
       "price": null,
       "currency": "",
       "product_url": "https://caseplay.shop/pages/libero-flip",
-      "image": "",
-      "image_note": "",
+      "image": "assets/c2-12e20271977ad30656cf.webp",
+      "image_note": "Libero Flip 专页指环透明壳示意图，未做实物适配测试。",
       "tags": [
         "透明"
       ]
@@ -13303,8 +13303,8 @@
       "price": null,
       "currency": "",
       "product_url": "https://www.trendyol.com/microcase/tecno-phantom-v-fold2-ile-uyumlu-sert-kristal-kapakli-kilif-seffaf-al3157-p-934455240",
-      "image": "",
-      "image_note": "",
+      "image": "assets/c2-7310ec2f95bb6f5e6959.webp",
+      "image_note": "同型号商品页示意图，未做实物适配测试。",
       "tags": []
     },
     {
@@ -14902,8 +14902,8 @@
       "price": null,
       "currency": "",
       "product_url": "https://item.jd.com/product/Goa3m-uX6hcRO3zW2Jm_zQ.html",
-      "image": "",
-      "image_note": "",
+      "image": "assets/c2-25db029d50c7e087c883.webp",
+      "image_note": "同商品 Nova Flip／Flip S 共用详情示意图，未逐机实装验证。",
       "tags": []
     },
     {
@@ -15554,6 +15554,136 @@
       "product_url": "https://www.bestbuy.ca/en-ca/product/phone-case-for-zte-nubia-flip-5g/19696365",
       "image": "assets/c2-1e5801fe58743fcb05d8.webp",
       "image_note": "",
+      "tags": []
+    },
+    {
+      "id": "d301d4c7899d5632fe08",
+      "phone_key": "honor-magic-v3",
+      "brand": "SULADA",
+      "product_name": "SULADA 皮纹翻转磁环护轴壳",
+      "series": "Leather Magnetic Handle 42322",
+      "price": null,
+      "currency": "",
+      "product_url": "https://www.alezay.com/shop/mobile-phone-accessories/honor-magic-v3-leather-magnetic-handle-magsafe-case/",
+      "image": "assets/c2-d301d4c7899d5632fe08.webp",
+      "image_note": "同型号具体商品页示意图，未做实物适配或功能测试。",
+      "tags": []
+    },
+    {
+      "id": "f21cb196c424f506269d",
+      "phone_key": "honor-magic-v6",
+      "brand": "SULADA",
+      "product_name": "SULADA 皮纹翻转磁环护轴壳",
+      "series": "Leather Magnetic Handle 55534",
+      "price": null,
+      "currency": "",
+      "product_url": "https://www.alezay.com/shop/mobile-phone-accessories/honor-magic-v6-leather-magnetic-handle-magsafe-case/",
+      "image": "assets/c2-f21cb196c424f506269d.webp",
+      "image_note": "同型号具体商品页示意图，未做实物适配或功能测试。",
+      "tags": []
+    },
+    {
+      "id": "1fb2a0b2853315ee7d88",
+      "phone_key": "honor-magic-v5",
+      "brand": "GKK",
+      "product_name": "GKK 旋转磁环全包护轴壳",
+      "series": "HD Integrated Magnetic EDA008534201",
+      "price": null,
+      "currency": "",
+      "product_url": "https://buy2fix.co.uk/products/for-honor-magic-v5-gkk-hd-integrated-magnetic-folding-hinge-all-inclusive-phone-case-with-rotating-brackettitanium-grey",
+      "image": "assets/c2-1fb2a0b2853315ee7d88.webp",
+      "image_note": "同型号具体商品页示意图，未做实物适配或功能测试。",
+      "tags": []
+    },
+    {
+      "id": "b0d0e542d010efb0b68a",
+      "phone_key": "honor-magic-v5",
+      "brand": "Cresee",
+      "product_name": "Cresee 相机盖支架全包护轴壳",
+      "series": "Camera Cover Stand B0FQ56H6B9",
+      "price": null,
+      "currency": "",
+      "product_url": "https://www.desertcart.ae/products/770264876-cresee-case-for-honor-magic-v5-camera-cover-stand-built",
+      "image": "assets/c2-b0d0e542d010efb0b68a.webp",
+      "image_note": "同型号具体商品页示意图，未做实物适配或功能测试。",
+      "tags": []
+    },
+    {
+      "id": "e59e7382e82b815bdfde",
+      "phone_key": "honor-magic-v5",
+      "brand": "TUDIA",
+      "product_name": "TUDIA MergeGrip V2 磁吸双片保护壳",
+      "series": "MergeGrip V2 HNRMAGICV5",
+      "price": null,
+      "currency": "",
+      "product_url": "https://www.bestbuy.com/product/tudia-mergegrip-v2-series-dual-layer-phone-case-for-honor-magic-v5-5g-2025-with-magnetic-compatibility-black/J3GW6G933G/sku/12662272",
+      "image": "assets/c2-e59e7382e82b815bdfde.webp",
+      "image_note": "同型号具体商品页示意图，未做实物适配或功能测试。",
+      "tags": []
+    },
+    {
+      "id": "670351bbe538d0805262",
+      "phone_key": "honor-magic-v3",
+      "brand": "HONOR",
+      "product_name": "HONOR Magic V3 PU 轴盖支架保护壳",
+      "series": "PU 轴盖支架",
+      "price": null,
+      "currency": "",
+      "product_url": "https://www.vopmart.com/honor-magic-v3-magnetic-pu-case.html",
+      "image": "assets/c2-670351bbe538d0805262.webp",
+      "image_note": "具体型号商品页示意图，未做实物适配或功能测试。",
+      "tags": []
+    },
+    {
+      "id": "537dd39f194453e1a427",
+      "phone_key": "honor-magic-v6",
+      "brand": "Elica",
+      "product_name": "Elica Magic V6 双片透明保护壳",
+      "series": "Bumper Case vazxh-05-39",
+      "price": null,
+      "currency": "",
+      "product_url": "https://www.flipkart.com/elica-bumper-case-honor-magic-v6-5g/p/itm8b770d57e312e",
+      "image": "assets/c2-537dd39f194453e1a427.webp",
+      "image_note": "具体型号商品页示意图，未做实物适配或功能测试。",
+      "tags": []
+    },
+    {
+      "id": "318bf5e40c4b300b99e5",
+      "phone_key": "huawei-nova-flip",
+      "brand": "开美智（KMaxAI）",
+      "product_name": "透明手提珠链保护壳",
+      "series": "透明手提珠链保护壳",
+      "price": null,
+      "currency": "",
+      "product_url": "https://item.jd.com/product/7Dcg-tyqFpkKS1hAgm2few.html",
+      "image": "assets/c2-318bf5e40c4b300b99e5.webp",
+      "image_note": "同 SKU 的 nova Flip／Flip S 共用详情示意图，未逐机实装验证。",
+      "tags": []
+    },
+    {
+      "id": "41a6be0f734f2634f8cd",
+      "phone_key": "huawei-nova-flip-s",
+      "brand": "开美智（KMaxAI）",
+      "product_name": "透明手提珠链保护壳",
+      "series": "透明手提珠链保护壳",
+      "price": null,
+      "currency": "",
+      "product_url": "https://item.jd.com/product/7Dcg-tyqFpkKS1hAgm2few.html",
+      "image": "assets/c2-41a6be0f734f2634f8cd.webp",
+      "image_note": "同 SKU 的 nova Flip／Flip S 共用详情示意图，未逐机实装验证。",
+      "tags": []
+    },
+    {
+      "id": "59c6c8457c738e2d9e1c",
+      "phone_key": "huawei-nova-flip-s",
+      "brand": "魔岩",
+      "product_name": "荔枝纹轻薄保护壳",
+      "series": "荔枝纹轻薄保护壳",
+      "price": null,
+      "currency": "",
+      "product_url": "https://item.jd.com/product/5ud90gxSZrP9tNJBfcEc8Q.html",
+      "image": "assets/c2-59c6c8457c738e2d9e1c.webp",
+      "image_note": "所选 nova Flip S 商品页引用的系列共用示意图，未做 S 实装验证。",
       "tags": []
     }
   ],
