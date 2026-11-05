@@ -4,15 +4,42 @@
  const norm=s=>(s||'').trim().toLocaleLowerCase(),el=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!=null)n.textContent=text;return n};
  let data;try{const r=await fetch('catalog.json');if(!r.ok)throw Error();data=await r.json()}catch(e){$('#result').textContent='暂时无法加载，请稍后重试。';return}
  const phones=data.phones||[],products=(data.products||[]).filter(p=>p.brand&&!/待核|未核|待判|未明确|未知|无品牌|来源|零售|商家|店铺|店名|不明|未确认|待查|待确认|待验证|待识别|声称|未证|待审|品牌未|疑似|渠道/.test(p.brand)),phoneMap=new Map(phones.map(p=>[p.phone_key,p]));
- const brands=new Map();products.forEach(p=>{if(p.brand&&!brands.has(norm(p.brand)))brands.set(norm(p.brand),p.brand)});
+ const brandAliases = new Map([
+  ['loof / looco', 'LOOF'],
+  ['urban armor gear', 'UAG']
+ ]);
+ const brandName = name => brandAliases.get(norm(name)) || name.trim();
+ const brandKey = name => norm(brandName(name));
+ const brands = new Map();
+ const phoneBrands = new Map();
+ for (const product of products) {
+  if (!phoneMap.has(product.phone_key) || sideExcluded.has(product.brand)) continue;
+  const key = brandKey(product.brand);
+  if (!key) continue;
+  if (!brands.has(key)) brands.set(key, brandName(product.brand));
+  if (!phoneBrands.has(product.phone_key)) phoneBrands.set(product.phone_key, new Set());
+  phoneBrands.get(product.phone_key).add(key);
+ }
+ const siteBrandCount = $('#site-brand-count');
+ if (siteBrandCount && !brandParam) {
+  siteBrandCount.textContent = `全站收录 ${brands.size} 个保护壳品牌`;
+  siteBrandCount.hidden = false;
+ }
  const menu=$('#brands');let selectedBrand='',selectedFeature='';const title=$('#title'),input=$('#query'),grid=$('#grid'),result=$('#result'),empty=$('#empty');
  const safeLink=u=>/^https?:\/\//i.test(u||'');
  function picture(url,alt){let d=el('div','item-visual');if(url&&typeof url==='string'&&!url.startsWith('/')&&!url.includes('..')){let img=el('img');img.src=url;img.alt=alt||'';img.loading='lazy';img.addEventListener('error',()=>{img.remove();d.textContent='暂无图片'});d.append(img)}else d.textContent='暂无图片';return d}
  function price(p){if(p.price===undefined||p.price===null||p.price==='')return '';return [p.currency||'',p.price].join(' ').trim()}
  function productCard(p,showPhone){let a=el('article','item');a.append(picture(p.image,p.product_name));a.append(el('div','item-brand',p.brand||''));a.append(el('div','item-name',p.product_name||''));if(showPhone)a.append(el('div','item-model',phoneMap.get(p.phone_key)?.model||''));let z=price(p);if(z)a.append(el('div','item-price',z));if(p.image_note)a.append(el('div','item-note',p.image_note));if(safeLink(p.product_url)){let link=el('a','item-source','查看来源 ↗');link.href=p.product_url;link.target='_blank';link.rel='noopener noreferrer';a.append(link)}return a}
- function phoneCard(p){let a=el('article','item');let link=el('a');link.href='case.html?phone='+encodeURIComponent(p.phone_key);link.append(picture(p.image,p.model));a.append(link);let b=el('a','item-brand',p.brand||'');b.href='index.html?phoneBrand='+encodeURIComponent(p.brand||'');a.append(b);let n=el('a','item-name',p.model||'');n.href=link.href;a.append(n);return a}
+ function phoneCard(p){let a=el('article','item');let link=el('a');link.href='case.html?phone='+encodeURIComponent(p.phone_key);link.append(picture(p.image,p.model));a.append(link);let b=el('a','item-brand',p.brand||'');b.href='index.html?phoneBrand='+encodeURIComponent(p.brand||'');a.append(b);let n=el('a','item-name',p.model||'');n.href=link.href;a.append(n);
+  const count = phoneBrands.get(p.phone_key)?.size || 0;
+  a.append(el('div', 'item-brand-count', count ? `已收录 ${count} 个保护壳品牌` : '暂未收录保护壳品牌'));
+  return a
+ }
  function asTags(p){return Array.isArray(p.tags)?p.tags:[]}
- function render(){let q=norm(input.value),items;if(isCase){items=products.filter(p=>p.phone_key===phoneKey&&(!selectedBrand||norm(p.brand)===norm(selectedBrand))&&(!selectedFeature||asTags(p).includes(selectedFeature))&&(!q||norm([p.brand,p.product_name,p.series].join(' ')).includes(q)))}else if(brandParam){items=products.filter(p=>norm(p.brand)===norm(brandParam)&&(!q||norm([p.product_name,phoneMap.get(p.phone_key)?.model].join(' ')).includes(q)))}else{items=phones.filter(p=>(!phoneBrand||norm(p.brand)===norm(phoneBrand))&&(!q||norm([p.brand,p.model].join(' ')).includes(q))).slice().sort((a,b)=>String(b.date||'').localeCompare(String(a.date||'')))}grid.replaceChildren(...items.map(p=>isCase||brandParam?productCard(p,!!brandParam):phoneCard(p)));result.textContent=items.length+' 项';empty.hidden=items.length!==0}
- if(isCase){let phone=phoneMap.get(phoneKey);title.textContent=phone?.model||'保护壳';$('#phone-brand').textContent=phone?.brand||'';let caseItems=products.filter(p=>p.phone_key===phoneKey),bs=new Map();caseItems.forEach(p=>{if(p.brand)bs.set(norm(p.brand),p.brand)});for(const name of [...bs.values()].filter(n=>!sideExcluded.has(n)).sort((a,b)=>a.localeCompare(b))){let b=el('button','',name);b.onclick=()=>{selectedBrand=name;menu.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));$('#all-brands').classList.remove('on');render()};menu.append(b)}$('#all-brands').onclick=()=>{selectedBrand='';menu.querySelectorAll('button').forEach(x=>x.classList.remove('on'));$('#all-brands').classList.add('on');render()};let ts=new Set(caseItems.flatMap(asTags));for(const t of [...ts].slice(0,18)){let b=el('button','',t);b.onclick=()=>{selectedFeature=selectedFeature===t?'':t;document.querySelectorAll('#features button').forEach(x=>x.classList.toggle('on',x===b&&!!selectedFeature));render()};$('#features').append(b)}}else{if(brandParam)title.textContent=brandParam+' 保护壳';else if(phoneBrand)title.textContent=phoneBrand+' 折叠手机';for(const name of [...brands.values()].filter(n=>!sideExcluded.has(n)).sort((a,b)=>a.localeCompare(b))){let a=el('a',norm(name)===norm(brandParam)?'on':'',name);a.href='index.html?brand='+encodeURIComponent(name);menu.append(a)}}
+ function render(){let q=norm(input.value),items;if(isCase){items=products.filter(p=>p.phone_key===phoneKey&&(!selectedBrand||brandKey(p.brand)===brandKey(selectedBrand))&&(!selectedFeature||asTags(p).includes(selectedFeature))&&(!q||norm([p.brand,p.product_name,p.series].join(' ')).includes(q)))}else if(brandParam){items=products.filter(p=>brandKey(p.brand)===brandKey(brandParam)&&(!q||norm([p.product_name,phoneMap.get(p.phone_key)?.model].join(' ')).includes(q)))}else{items=phones.filter(p=>(!phoneBrand||norm(p.brand)===norm(phoneBrand))&&(!q||norm([p.brand,p.model].join(' ')).includes(q))).slice().sort((a,b)=>String(b.date||'').localeCompare(String(a.date||'')))}grid.replaceChildren(...items.map(p=>isCase||brandParam?productCard(p,!!brandParam):phoneCard(p)));result.textContent=items.length+' 项';empty.hidden=items.length!==0}
+ if(isCase){let phone=phoneMap.get(phoneKey);title.textContent=phone?.model||'保护壳';$('#phone-brand').textContent=phone?.brand||'';let caseItems=products.filter(p=>p.phone_key===phoneKey);
+ if (phone && caseItems.length === 0) empty.textContent = '这个机型暂未收录保护壳';
+ const modelBrands = [...(phoneBrands.get(phoneKey) || [])].map(key => brands.get(key));
+ for(const name of modelBrands.sort((a,b)=>a.localeCompare(b))){let b=el('button','',name);b.onclick=()=>{selectedBrand=name;menu.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));$('#all-brands').classList.remove('on');render()};menu.append(b)}$('#all-brands').onclick=()=>{selectedBrand='';menu.querySelectorAll('button').forEach(x=>x.classList.remove('on'));$('#all-brands').classList.add('on');render()};let ts=new Set(caseItems.flatMap(asTags));for(const t of [...ts].slice(0,18)){let b=el('button','',t);b.onclick=()=>{selectedFeature=selectedFeature===t?'':t;document.querySelectorAll('#features button').forEach(x=>x.classList.toggle('on',x===b&&!!selectedFeature));render()};$('#features').append(b)}}else{if(brandParam)title.textContent=brandParam+' 保护壳';else if(phoneBrand)title.textContent=phoneBrand+' 折叠手机';for(const name of [...brands.values()].sort((a,b)=>a.localeCompare(b))){let a=el('a',brandKey(name)===brandKey(brandParam)?'on':'',name);a.href='index.html?brand='+encodeURIComponent(name);menu.append(a)}}
  $('#mobile-filter').onclick=()=>{let open=$('#sidebar').classList.toggle('open');$('#mobile-filter').setAttribute('aria-expanded',String(open))};input.addEventListener('input',render);render();
 })();
