@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>全部手机壳 · FOLD / CASE</title>
   <link rel="stylesheet" href="site.css">
-</head>
+<meta name="description" content="FOLD / CASE 折叠手机壳图鉴：按品牌、机型与特征浏览保护壳，查看商品图片、资料与来源。"><meta property="og:site_name" content="FOLD / CASE"><meta property="og:title" content="全部手机壳 · FOLD / CASE"><meta property="og:description" content="按品牌、机型与手机壳特征浏览，查看图片与公开商品来源。"><meta property="og:type" content="website"><meta property="og:image" content="https://xxbro666youknow-dot.github.io/foldable-case-atlas/share-preview.png"><meta name="twitter:card" content="summary_large_image"><link rel="icon" type="image/svg+xml" href="favicon.svg"><link rel="stylesheet" href="case-ui.css?v=20261106-r3"></head>
 <body>
   <header class="top">
     <a href="index.html" class="logo">FOLD / CASE</a>
@@ -19,18 +19,20 @@
       </div>
     </div>
     <form class="product-filters" id="product-filters" role="search" hidden>
-      <label><span>搜索</span><input id="query" type="search" placeholder="机型、保护壳品牌或商品"></label>
-      <label><span>适配机型</span><select id="product-phone"><option value="">全部机型</option></select></label>
-      <label id="product-scope-field" hidden><span>显示范围</span><select id="product-scope"><option value="all">全部适配记录</option><option value="counted">已计入商品数</option></select></label>
+      <label><span>品牌名</span><input id="query" name="foldcase-brand-filter" type="search" list="case-brand-list" autocomplete="off" placeholder="输入保护壳品牌" aria-label="品牌名"><datalist id="case-brand-list"></datalist></label>
+      <label><span>机型</span><select id="product-phone" aria-label="机型"><option value="">全部机型</option></select></label>
+      <div class="feature-field"><span id="feature-label">手机壳特征</span><details id="feature-menu" class="feature-menu"><summary id="feature-summary" aria-describedby="feature-label">全部特征</summary><div class="feature-panel"><p class="feature-help">同组满足其一，不同组同时满足。未标注不代表没有。</p><div id="feature-options"></div></div></details></div>
       <button id="product-reset" type="reset">清空筛选</button>
     </form>
+    <div class="filter-chips" id="selected-filters" aria-label="已选筛选"></div>
+    <div class="share-actions"><button type="button" data-share="page">分享本页 ↗</button><button type="button" data-share="current">分享当前筛选 ↗</button></div>
     <section aria-label="手机壳浏览结果">
       <p class="result" id="result" role="status">正在加载手机壳…</p>
       <div id="grid" class="grid"></div>
-      <p id="empty" class="empty" hidden>没有匹配的手机壳。可清空筛选或换个关键词。</p>
+      <p id="empty" class="empty" hidden>没有匹配的手机壳。可清空筛选或调整品牌、机型与特征。</p>
       <div class="product-pagination"><button id="product-more" type="button" hidden>显示更多</button></div>
     </section>
   </main>
-  <script src="site.js?v=20261105-sample-scope"></script>
+  <script src="case-ui.js?v=20261106-r3"></script><script src="site.js?v=20261106-r3"></script><script src="share.js?v=20261106-r3"></script>
 </body>
 </html>
