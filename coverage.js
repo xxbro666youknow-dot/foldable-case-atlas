@@ -11,7 +11,7 @@
   const metric = (value, label) => `<div><strong>${escape(value)}</strong><span>${escape(label)}</span></div>`;
   fetch('coverage-data.json', {cache:'no-store'}).then(response => { if (!response.ok) throw Error('载入失败'); return response.json(); }).then(data => {
     const total = data.summary;
-    document.getElementById('image-progress').textContent = `本轮填补期初缺图 ${total.baseline_missing_images_filled} 条；新增适配中 ${total.new_relationships_with_images} 条已有图（其中 ${total.new_relationships_reusing_images} 条复用既有图）；另更换 ${total.existing_images_replaced} 条图片。当前仍有 ${total.missing_image_relationships} 条适配记录缺图。`;
+    document.getElementById('image-progress').textContent = `本轮填补期初缺图 ${total.baseline_missing_images_filled} 条；新增适配中 ${total.new_relationships_with_images} 条已有图（其中 ${total.new_relationships_reusing_images} 条复用既有图）；另更换 ${total.existing_images_replaced} 条图片，因使用依据不足撤下 ${total.existing_images_withdrawn || 0} 条既有图片。当前仍有 ${total.missing_image_relationships} 条适配记录缺图。`;
     document.getElementById('updated').textContent = `核验日期 ${data.checked_date} · 72 款机型 · 点击机型查看已收录商品`;
     document.getElementById('summary').innerHTML = metric(number(total.effective),'全站有效手机壳样本') + metric('+' + number(total.net_added),'本轮净增有效样本') + metric(data.phones.length,'现有已收录机型') + metric(number(total.image_updates),'本轮补图适配记录');
     const gapBox = document.getElementById('image-gap-summary');
