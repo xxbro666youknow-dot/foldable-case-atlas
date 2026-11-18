@@ -4,23 +4,23 @@
   "counting_note": "本次仅计明确商品及型号变体；系列预告单列观察记录，不计有效样本。旧机型商品、历史共组及去重结论保留。",
   "summary": {
     "baseline_missing_images_filled": 0,
-    "new_relationships_with_images": 1,
+    "new_relationships_with_images": 9,
     "existing_images_replaced": 0,
     "new_relationships_reusing_images": 0,
-    "effective": 1024,
+    "effective": 1047,
     "baseline_effective": 1016,
-    "net_added": 8,
-    "effective_brands": 154,
-    "relationships": 1131,
-    "net_added_relationships": 9,
-    "models_at_30": 11,
+    "net_added": 31,
+    "effective_brands": 163,
+    "relationships": 1155,
+    "net_added_relationships": 33,
+    "models_at_30": 12,
     "zero_sample_models": 3,
-    "total_gap_to_30": 1480,
-    "image_updates": 1,
-    "distinct_image_hashes": 1,
-    "missing_image_relationships": 143,
+    "total_gap_to_30": 1458,
+    "image_updates": 9,
+    "distinct_image_hashes": 9,
+    "missing_image_relationships": 159,
     "baseline_evidence_upgraded": 0,
-    "added_records_effective": 8,
+    "added_records_effective": 31,
     "baseline_groups_held": 0,
     "duo_display_records": 186,
     "duo_effective": 183,
@@ -9696,16 +9696,16 @@
       "brand": "Huawei",
       "model": "Mate X8",
       "baseline": 0,
-      "current": 8,
-      "net_added": 8,
-      "gap_to_30": 22,
-      "effective_brands": 7,
-      "relationships": 9,
-      "with_image": 1,
-      "without_image": 8,
-      "image_updates": 1,
+      "current": 31,
+      "net_added": 31,
+      "gap_to_30": 0,
+      "effective_brands": 17,
+      "relationships": 33,
+      "with_image": 9,
+      "without_image": 24,
+      "image_updates": 9,
       "source_coverage": "2026-11-18新增；商家发布的Mate X8适配信息，手机未发布，未获官方或实机验证。",
-      "gap_note": "本页9条公开观察/适配记录中1条未计有效样本，系列预告不当成已核商品。同款颜色及重复卖家不累加；已明确共用的跨机型同款在本机型计1、全站仅计1。未证明实物适配或市场完整度。",
+      "gap_note": "本页33条公开观察/适配记录中2条未计有效样本，系列预告不当成已核商品。同款颜色及重复卖家不累加；已明确共用的跨机型同款在本机型计1、全站仅计1。未证明实物适配或市场完整度。",
       "sources": [
         {
           "url": "https://detail.tmall.com/item.htm?id=1097847843571",
@@ -9760,6 +9760,150 @@
           "site": "item.taobao.com",
           "status": "商品及型号信息已查见",
           "note": "不等同手机官方规格、实物适配或当前库存验证。"
+        },
+        {
+          "url": "https://detail.tmall.com/item.htm?id=1102184928117",
+          "site": "detail.tmall.com",
+          "status": "观察记录 · 未计有效样本",
+          "note": "不等同手机官方规格、实物适配或当前库存验证。"
+        },
+        {
+          "url": "https://detail.tmall.com/item.htm?id=1098689190139&skuId=6321691498404",
+          "site": "detail.tmall.com",
+          "status": "商品及型号信息已查见",
+          "note": "不等同手机官方规格、实物适配或当前库存验证。"
+        },
+        {
+          "url": "https://detail.tmall.com/item.htm?id=1100687396107&skuId=6322036358725",
+          "site": "detail.tmall.com",
+          "status": "商品及型号信息已查见",
+          "note": "不等同手机官方规格、实物适配或当前库存验证。"
+        },
+        {
+          "url": "https://detail.tmall.com/item.htm?id=1101963348072&skuId=6323033530394",
+          "site": "detail.tmall.com",
+          "status": "商品及型号信息已查见",
+          "note": "不等同手机官方规格、实物适配或当前库存验证。"
+        },
+        {
+          "url": "https://detail.tmall.com/item.htm?id=1099077591782&skuId=6323358310162",
+          "site": "detail.tmall.com",
+          "status": "商品及型号信息已查见",
+          "note": "不等同手机官方规格、实物适配或当前库存验证。"
+        },
+        {
+          "url": "https://detail.tmall.com/item.htm?id=1098276442595&skuId=6321279315293",
+          "site": "detail.tmall.com",
+          "status": "商品及型号信息已查见",
+          "note": "不等同手机官方规格、实物适配或当前库存验证。"
+        },
+        {
+          "url": "https://detail.tmall.com/item.htm?id=1099817426754&skuId=6323252727048",
+          "site": "detail.tmall.com",
+          "status": "商品及型号信息已查见",
+          "note": "不等同手机官方规格、实物适配或当前库存验证。"
+        },
+        {
+          "url": "https://detail.tmall.com/item.htm?id=1099004610313&skuId=6322022986076",
+          "site": "detail.tmall.com",
+          "status": "商品及型号信息已查见",
+          "note": "不等同手机官方规格、实物适配或当前库存验证。"
+        },
+        {
+          "url": "https://item.taobao.com/item.htm?id=1098341765801&skuId=6159081749567",
+          "site": "item.taobao.com",
+          "status": "商品及型号信息已查见",
+          "note": "不等同手机官方规格、实物适配或当前库存验证。"
+        },
+        {
+          "url": "https://item.taobao.com/item.htm?id=1098993806009&skuId=6157470040758",
+          "site": "item.taobao.com",
+          "status": "商品及型号信息已查见",
+          "note": "不等同手机官方规格、实物适配或当前库存验证。"
+        },
+        {
+          "url": "https://detail.tmall.com/item.htm?id=1094405201478&skuId=6150472617385",
+          "site": "detail.tmall.com",
+          "status": "商品及型号信息已查见",
+          "note": "不等同手机官方规格、实物适配或当前库存验证。"
+        },
+        {
+          "url": "https://detail.tmall.com/item.htm?id=1101414240233&skuId=6322464503914",
+          "site": "detail.tmall.com",
+          "status": "商品及型号信息已查见",
+          "note": "不等同手机官方规格、实物适配或当前库存验证。"
+        },
+        {
+          "url": "https://detail.tmall.com/item.htm?id=1096653163054&skuId=6322386439970",
+          "site": "detail.tmall.com",
+          "status": "商品及型号信息已查见",
+          "note": "不等同手机官方规格、实物适配或当前库存验证。"
+        },
+        {
+          "url": "https://detail.tmall.com/item.htm?id=1099841953422&skuId=6157181168186",
+          "site": "detail.tmall.com",
+          "status": "商品及型号信息已查见",
+          "note": "不等同手机官方规格、实物适配或当前库存验证。"
+        },
+        {
+          "url": "https://detail.tmall.com/item.htm?id=1098865955391&skuId=6158561144994",
+          "site": "detail.tmall.com",
+          "status": "商品及型号信息已查见",
+          "note": "不等同手机官方规格、实物适配或当前库存验证。"
+        },
+        {
+          "url": "https://detail.tmall.com/item.htm?id=1098460671498&skuId=6158603073594",
+          "site": "detail.tmall.com",
+          "status": "商品及型号信息已查见",
+          "note": "不等同手机官方规格、实物适配或当前库存验证。"
+        },
+        {
+          "url": "https://detail.tmall.com/item.htm?id=1100550149736&skuId=6158167864795",
+          "site": "detail.tmall.com",
+          "status": "商品及型号信息已查见",
+          "note": "不等同手机官方规格、实物适配或当前库存验证。"
+        },
+        {
+          "url": "https://detail.tmall.com/item.htm?id=1101114589461&skuId=6323322930561",
+          "site": "detail.tmall.com",
+          "status": "商品及型号信息已查见",
+          "note": "不等同手机官方规格、实物适配或当前库存验证。"
+        },
+        {
+          "url": "https://detail.tmall.com/item.htm?id=1099538282962&skuId=6322878099573",
+          "site": "detail.tmall.com",
+          "status": "商品及型号信息已查见",
+          "note": "不等同手机官方规格、实物适配或当前库存验证。"
+        },
+        {
+          "url": "https://item.taobao.com/item.htm?id=1100591177277&skuId=6322661306188",
+          "site": "item.taobao.com",
+          "status": "商品及型号信息已查见",
+          "note": "不等同手机官方规格、实物适配或当前库存验证。"
+        },
+        {
+          "url": "https://item.jd.com/100421135098.html",
+          "site": "item.jd.com",
+          "status": "商品及型号信息已查见",
+          "note": "不等同手机官方规格、实物适配或当前库存验证。"
+        },
+        {
+          "url": "https://item.jd.com/100446664718.html",
+          "site": "item.jd.com",
+          "status": "商品及型号信息已查见",
+          "note": "不等同手机官方规格、实物适配或当前库存验证。"
+        },
+        {
+          "url": "https://item.jd.com/100337576959.html",
+          "site": "item.jd.com",
+          "status": "商品及型号信息已查见",
+          "note": "不等同手机官方规格、实物适配或当前库存验证。"
+        },
+        {
+          "url": "https://item.jd.com/100446678456.html",
+          "site": "item.jd.com",
+          "status": "商品及型号信息已查见",
+          "note": "不等同手机官方规格、实物适配或当前库存验证。"
         }
       ]
     }
@@ -9767,7 +9911,7 @@
   "round": "2026-11-17 Mate X8专题扩充",
   "stage": "上市前商家适配信息增量收录",
   "baseline_commit": "26bb963227a9e1cd61164d79cd0c4c5a448ba06f",
-  "scope_note": "2026-11-17至18 Mate X8上市前铺货观察：具名品牌商品与系列预告分开呈现，预告不计有效样本；准确机型图片尚缺时留空，不用旧机型或店铺Logo补入。商家适配、材料和供货主张未实物验证。 旧72款机型的商品资料、来源和逐条历史核查说明沿用2026-11-06。Mate X8未发布，适配为商家主张，未实机验证。本次新增带图与此前修图累计分别展示。",
+  "scope_note": "Mate X8 上市前竞品观察，已辨明的款式计数，同款不同颜色和重复卖家合并。价格只统计 27 款已核报价。品牌预告和整壳证据不足的记录单列。 旧72款机型的商品资料、来源和逐条历史核查说明沿用2026-11-06。Mate X8未发布，适配为商家主张，未实机验证。本次新增带图与此前修图累计分别展示。",
   "image_gap_reasons": [
     {
       "reason": "素材使用受限",
@@ -9811,7 +9955,7 @@
     },
     {
       "reason": "商家旧或混合机型图未采用",
-      "count": 5
+      "count": 10
     },
     {
       "reason": "准确机型商品图缺失",
@@ -9823,6 +9967,18 @@
     },
     {
       "reason": "混合机型图库待核",
+      "count": 1
+    },
+    {
+      "reason": "同页旧或混合机型图未采用",
+      "count": 1
+    },
+    {
+      "reason": "Mate X8准确图待核",
+      "count": 9
+    },
+    {
+      "reason": "已核来源图，转载依据待核",
       "count": 1
     }
   ],
@@ -9874,13 +10030,13 @@
   "latest_addition_batch": {
     "checked_date": "2026-11-18",
     "phone_key": "huawei-mate-x8",
-    "relationships": 9,
-    "net_new_global_samples": 8,
-    "phone_effective_samples": 8,
-    "with_image": 1,
-    "without_image": 8,
-    "distinct_image_hashes": 1,
-    "uncounted_records": 1,
+    "relationships": 33,
+    "net_new_global_samples": 31,
+    "phone_effective_samples": 31,
+    "with_image": 9,
+    "without_image": 24,
+    "distinct_image_hashes": 9,
+    "uncounted_records": 2,
     "existing_groups_extended": 0
   }
 }

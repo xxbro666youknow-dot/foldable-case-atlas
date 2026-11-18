@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "checked_date": "2026-11-18",
-  "total_counted": 1024,
-  "non_duo_counted": 841,
+  "total_counted": 1047,
+  "non_duo_counted": 864,
   "duo_counted": 183,
   "duo_display_records": 186,
-  "relationship_count": 1131,
-  "not_counted_relationships": 62,
-  "pending_relationships": 62,
+  "relationship_count": 1155,
+  "not_counted_relationships": 63,
+  "pending_relationships": 63,
   "merged_relationships": 45,
   "counting_rule": "保守下界：按已核商品身份及明确机型变体计数；同商品跨机型兼容、同款重复来源、颜色或附加膜的套装不重复计数。商品关系与品牌数分别显示。",
   "verification_scope": "旧机型与商品沿用2026-11-06目录及审计；本次仅新增Mate X8商家适配样本。核验商家发布信息，不证明手机官方规格、实物适配或实时库存。",
@@ -1080,7 +1080,30 @@
     "6c11f312ddaded8c9203",
     "a0ecca4058a8c0de23e6",
     "e52da599860bc5fc7974",
-    "c12f46aa796d9ed5de76"
+    "c12f46aa796d9ed5de76",
+    "153943e765a51efc0b1a",
+    "20a675e20158c7b8a4db",
+    "def5dce7854f2103cccf",
+    "addcf0e0531db485ffad",
+    "f04a7bc6cf78884edf0c",
+    "29eb73c24b3078a76a15",
+    "a774886c801ac8d6147e",
+    "35c7382f47bdc900b85f",
+    "8612700f5752e8ca13ac",
+    "dd2fe903ff00ac3571f8",
+    "bf9a9fee4ff16d0bd08f",
+    "41731b2fd503014e7f0b",
+    "b660a040e17b5d97b45a",
+    "b0be8d95a4a904c799e0",
+    "e4f967f907e77522de4a",
+    "7c0f7059c078aa8742fc",
+    "752674528fd6a75b2e83",
+    "bdd80e9bdecdcf43569a",
+    "530d5ff35c82179a7f88",
+    "6a5e463f02b80f9bd48f",
+    "28ae1e5da6df8a0a0439",
+    "2e21c1b950e006496a01",
+    "485abfb4d6145919f7d7"
   ],
   "counted_representative_ids": [
     "000ee9379a7f31a18561",
@@ -2106,7 +2129,30 @@
     "6c11f312ddaded8c9203",
     "a0ecca4058a8c0de23e6",
     "e52da599860bc5fc7974",
-    "c12f46aa796d9ed5de76"
+    "c12f46aa796d9ed5de76",
+    "153943e765a51efc0b1a",
+    "20a675e20158c7b8a4db",
+    "def5dce7854f2103cccf",
+    "addcf0e0531db485ffad",
+    "f04a7bc6cf78884edf0c",
+    "29eb73c24b3078a76a15",
+    "a774886c801ac8d6147e",
+    "35c7382f47bdc900b85f",
+    "8612700f5752e8ca13ac",
+    "dd2fe903ff00ac3571f8",
+    "bf9a9fee4ff16d0bd08f",
+    "41731b2fd503014e7f0b",
+    "b660a040e17b5d97b45a",
+    "b0be8d95a4a904c799e0",
+    "e4f967f907e77522de4a",
+    "7c0f7059c078aa8742fc",
+    "752674528fd6a75b2e83",
+    "bdd80e9bdecdcf43569a",
+    "530d5ff35c82179a7f88",
+    "6a5e463f02b80f9bd48f",
+    "28ae1e5da6df8a0a0439",
+    "2e21c1b950e006496a01",
+    "485abfb4d6145919f7d7"
   ],
   "groups": [
     {
@@ -9320,6 +9366,167 @@
       "representative_id": "c12f46aa796d9ed5de76",
       "relationship_ids": [
         "c12f46aa796d9ed5de76"
+      ]
+    },
+    {
+      "count_key": "467f57186f8fdfbb0d41",
+      "representative_id": "153943e765a51efc0b1a",
+      "relationship_ids": [
+        "153943e765a51efc0b1a"
+      ]
+    },
+    {
+      "count_key": "3d630e2a52359a32f0b8",
+      "representative_id": "20a675e20158c7b8a4db",
+      "relationship_ids": [
+        "20a675e20158c7b8a4db"
+      ]
+    },
+    {
+      "count_key": "f7f19e1d7534a833f8c0",
+      "representative_id": "def5dce7854f2103cccf",
+      "relationship_ids": [
+        "def5dce7854f2103cccf"
+      ]
+    },
+    {
+      "count_key": "6dec45d25f25d9602736",
+      "representative_id": "addcf0e0531db485ffad",
+      "relationship_ids": [
+        "addcf0e0531db485ffad"
+      ]
+    },
+    {
+      "count_key": "982925256ae882b3ee94",
+      "representative_id": "f04a7bc6cf78884edf0c",
+      "relationship_ids": [
+        "f04a7bc6cf78884edf0c"
+      ]
+    },
+    {
+      "count_key": "c0db042be932baf40b05",
+      "representative_id": "29eb73c24b3078a76a15",
+      "relationship_ids": [
+        "29eb73c24b3078a76a15"
+      ]
+    },
+    {
+      "count_key": "98727465a747a454109a",
+      "representative_id": "a774886c801ac8d6147e",
+      "relationship_ids": [
+        "a774886c801ac8d6147e"
+      ]
+    },
+    {
+      "count_key": "f34b15bcbf1970001f15",
+      "representative_id": "35c7382f47bdc900b85f",
+      "relationship_ids": [
+        "35c7382f47bdc900b85f"
+      ]
+    },
+    {
+      "count_key": "8f211d7261e5b7182c83",
+      "representative_id": "8612700f5752e8ca13ac",
+      "relationship_ids": [
+        "8612700f5752e8ca13ac"
+      ]
+    },
+    {
+      "count_key": "62e884bcabdff6683108",
+      "representative_id": "dd2fe903ff00ac3571f8",
+      "relationship_ids": [
+        "dd2fe903ff00ac3571f8"
+      ]
+    },
+    {
+      "count_key": "42f4de81ab5bb3f6129a",
+      "representative_id": "bf9a9fee4ff16d0bd08f",
+      "relationship_ids": [
+        "bf9a9fee4ff16d0bd08f"
+      ]
+    },
+    {
+      "count_key": "23bc21ef30453188b978",
+      "representative_id": "41731b2fd503014e7f0b",
+      "relationship_ids": [
+        "41731b2fd503014e7f0b"
+      ]
+    },
+    {
+      "count_key": "2b1c5ac706429bbc8492",
+      "representative_id": "b660a040e17b5d97b45a",
+      "relationship_ids": [
+        "b660a040e17b5d97b45a"
+      ]
+    },
+    {
+      "count_key": "c26f33ab710bcfbb82f5",
+      "representative_id": "b0be8d95a4a904c799e0",
+      "relationship_ids": [
+        "b0be8d95a4a904c799e0"
+      ]
+    },
+    {
+      "count_key": "158a1e51dbf666d37bb9",
+      "representative_id": "e4f967f907e77522de4a",
+      "relationship_ids": [
+        "e4f967f907e77522de4a"
+      ]
+    },
+    {
+      "count_key": "6a4e6faa5161828f3750",
+      "representative_id": "7c0f7059c078aa8742fc",
+      "relationship_ids": [
+        "7c0f7059c078aa8742fc"
+      ]
+    },
+    {
+      "count_key": "458abd4aede9a5487763",
+      "representative_id": "752674528fd6a75b2e83",
+      "relationship_ids": [
+        "752674528fd6a75b2e83"
+      ]
+    },
+    {
+      "count_key": "ed94fbe542f7f13e53a7",
+      "representative_id": "bdd80e9bdecdcf43569a",
+      "relationship_ids": [
+        "bdd80e9bdecdcf43569a"
+      ]
+    },
+    {
+      "count_key": "aee6eb45492c286473f4",
+      "representative_id": "530d5ff35c82179a7f88",
+      "relationship_ids": [
+        "530d5ff35c82179a7f88"
+      ]
+    },
+    {
+      "count_key": "289b3b28cc5bf450e7a7",
+      "representative_id": "6a5e463f02b80f9bd48f",
+      "relationship_ids": [
+        "6a5e463f02b80f9bd48f"
+      ]
+    },
+    {
+      "count_key": "e700da527dc04c596a0d",
+      "representative_id": "28ae1e5da6df8a0a0439",
+      "relationship_ids": [
+        "28ae1e5da6df8a0a0439"
+      ]
+    },
+    {
+      "count_key": "440557181bc2529dcaaa",
+      "representative_id": "2e21c1b950e006496a01",
+      "relationship_ids": [
+        "2e21c1b950e006496a01"
+      ]
+    },
+    {
+      "count_key": "80af8c0ae47d78dba240",
+      "representative_id": "485abfb4d6145919f7d7",
+      "relationship_ids": [
+        "485abfb4d6145919f7d7"
       ]
     }
   ]

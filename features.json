@@ -3149,6 +3149,114 @@
       "stand",
       "hinge",
       "texture"
+    ],
+    "28c523e558d543068820": [],
+    "153943e765a51efc0b1a": [
+      "stand",
+      "hinge",
+      "light"
+    ],
+    "20a675e20158c7b8a4db": [
+      "stand",
+      "hinge",
+      "magnetic"
+    ],
+    "def5dce7854f2103cccf": [
+      "stand",
+      "hinge",
+      "magnetic",
+      "clear"
+    ],
+    "addcf0e0531db485ffad": [],
+    "f04a7bc6cf78884edf0c": [
+      "magnetic",
+      "hinge"
+    ],
+    "29eb73c24b3078a76a15": [
+      "folio",
+      "magnetic"
+    ],
+    "a774886c801ac8d6147e": [
+      "stand",
+      "magnetic",
+      "natural-leather",
+      "hinge"
+    ],
+    "35c7382f47bdc900b85f": [
+      "magnetic",
+      "hinge",
+      "natural-leather"
+    ],
+    "8612700f5752e8ca13ac": [
+      "aramid",
+      "magnetic",
+      "front"
+    ],
+    "dd2fe903ff00ac3571f8": [
+      "magnetic",
+      "matte",
+      "clear",
+      "hinge"
+    ],
+    "bf9a9fee4ff16d0bd08f": [
+      "hinge",
+      "magnetic",
+      "texture"
+    ],
+    "41731b2fd503014e7f0b": [
+      "hinge",
+      "texture"
+    ],
+    "b660a040e17b5d97b45a": [
+      "stand",
+      "folio"
+    ],
+    "b0be8d95a4a904c799e0": [
+      "stand",
+      "folio",
+      "magnetic"
+    ],
+    "e4f967f907e77522de4a": [
+      "folio",
+      "magnetic"
+    ],
+    "7c0f7059c078aa8742fc": [
+      "stand",
+      "folio",
+      "magnetic"
+    ],
+    "752674528fd6a75b2e83": [
+      "stand"
+    ],
+    "bdd80e9bdecdcf43569a": [
+      "pc",
+      "front"
+    ],
+    "530d5ff35c82179a7f88": [
+      "hinge",
+      "magnetic"
+    ],
+    "6a5e463f02b80f9bd48f": [
+      "stand",
+      "magnetic",
+      "hinge"
+    ],
+    "28ae1e5da6df8a0a0439": [
+      "stand",
+      "folio",
+      "magnetic",
+      "hinge"
+    ],
+    "2e21c1b950e006496a01": [
+      "grip",
+      "stand",
+      "folio",
+      "magnetic"
+    ],
+    "485abfb4d6145919f7d7": [
+      "stand",
+      "magnetic",
+      "hinge"
     ]
   },
   "device_tags_by_phone_key": {

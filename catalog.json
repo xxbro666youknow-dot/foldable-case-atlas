@@ -583,19 +583,19 @@
       "form": "横折",
       "date": "",
       "image": "assets/matex8_phone_a7ab3c3dd8f8c7f8c56e66409215d2faaff72a4ea51491ac3bdb30dc4a4a53e3.jpg",
-      "status_note": "未发布 · 上市前铺货观察；适配为商家主张，未实机验证",
+      "status_note": "未发布 · 官方预约中；商家壳适配未实机验证",
       "announced_launch_date": "2026-11-24",
       "announced_launch_source": "https://consumer.huawei.com/cn/support/content/zh-cn16124806/",
       "announced_launch_verified": true,
       "market_observation": {
         "checked_date": "2026-11-18",
-        "headline": "已核7个品牌8款手机壳，另有1条品牌预告。",
+        "headline": "17 个品牌，31 款 Mate X8 保护壳。其中 27 款有公开报价，4 款待核价。",
         "points": [
-          "重点品牌：11个品牌中，本轮仅核到SULADA经销商的Mate X8黑色配置，券/金币后119.16元；其他品牌所查入口未见明确商品，不等于尚未推出。",
-          "本批结构：6款带旋转、腕带或翻转指环支架，另有1款基础磁吸与1款视窗翻盖；所选配置页面价56.3–193元。",
-          "图片与材料：仅保留1张明确标注X8的商家预发布示意图，仍不能证明实物适配；其余缺图保留。“凯夫拉纹／环保皮料”不作为芳纶材料证据。"
+          "京东自营列出的图拉斯 O1S 黑白两色合计一款。摩斐的旋转支架翻盖、腕带翻盖和精孔镜头旋转支架按三种结构收录。这四款均有独立商品编号，能否下单待核。",
+          "27 款的所选配置页面价为 26.01–259 元，中位数 133.86 元。另 4 款无可核报价，已排除在价格统计之外。部分报价仅含后壳。",
+          "产品包括基础磁吸中轴壳、透明前后壳、指环或腕带支架壳、视窗翻盖壳。商家提供的同系列示意图已在卡片注明，缺少准确商品图的款式保留缺图标记。"
         ],
-        "scope_note": "观察日2026-11-17至18。本批7个品牌8款所选配置页面价受账号、地区、券和金币影响，非成交价或全市场价区间。适配、材料和有货均为商家主张，实际发货与实机适配未验。11个重点品牌的入口和缺口见下表。华为预告11月24日发布，发售日未说明。",
+        "scope_note": "观察日期为 2026 年 11 月 17–18 日。收录可核实品牌、Mate X8 适配标注及具体款式的商品，同款配色合并。价格按可核到报价的所选配置统计，可能含店铺、账号优惠；页面标价、商品目录上架与实时库存分别记录。材料、结构与适配为商家主张，未做实机验证。",
         "preview_note": "皮皮壳具名微博账号另有Mate X8凯夫拉系列预告，仅展示遮盖海报，外观、独立SKU、价格及开售状态未公布；单列预告，不计入有效商品或价格统计，账号认证主体未核。",
         "sources": [
           {
@@ -625,43 +625,68 @@
           {
             "label": "SULADA经销商所选X8黑色配置",
             "url": "https://item.taobao.com/item.htm?id=901578068861&skuId=6158641020340"
+          },
+          {
+            "label": "CONGA旗舰店X8上架待核系列",
+            "url": "https://detail.tmall.com/item.htm?id=1102184928117"
+          },
+          {
+            "label": "图拉斯 O1S 京东自营商品列表",
+            "url": "https://www.jd.com/hprm/9987329d09dfa0f9ebad.html"
+          },
+          {
+            "label": "摩斐 京东自营商品列表",
+            "url": "https://www.jd.com/xinkuan/99877d1dc3f90be861d4.html"
           }
         ]
       },
       "brand_coverage": {
         "checked_date": "2026-11-18",
-        "scope_note": "逐一查11个重点品牌的列明入口；SULADA取得1个经销商标称X8配置，其余10品牌本轮未取得明确商品。未找到不等于未推出；官网、国内店铺与新品内容可能不同步，存在访问和未索引缺口。",
+        "scope_note": "品牌官网、旗舰店、自营商品目录与官方账号均按来源标注。可确认款式的商品计入样本，缺少公开报价的款式保留“价格待核”。",
         "rows": [
           {
             "brand": "TORRAS / 图拉斯",
-            "status": "本轮未找到明确商品",
+            "status": "已收录明确商品",
             "channels": [
-              "淘宝品牌定向检索",
-              "天猫O1S/Qpro具体型号选项"
+              "京东自营目录及商品编号",
+              "天猫旧链接型号复核"
             ],
-            "note": "本轮O1S、Qpro所读链接仅提供X7／X6及典藏版选项，未见X8。旧链接缺席不代表品牌尚未推出。",
+            "note": "京东自营目录明确出现 Mate X8 的 O1S 黑、白两色，合计一款；商品编号分别为100421135098和100322340371。公开页面未核得具体报价与可下单状态。",
             "sources": [
               {
-                "label": "O1S旧款型号核对",
-                "url": "https://detail.tmall.com/item.htm?id=848540264914"
+                "label": "京东自营公开列表",
+                "url": "https://www.jd.com/hprm/9987329d09dfa0f9ebad.html"
               },
               {
-                "label": "Qpro旧款型号核对",
-                "url": "https://detail.tmall.com/item.htm?id=1060227571854"
+                "label": "黑色 O1S",
+                "url": "https://item.jd.com/100421135098.html"
+              },
+              {
+                "label": "白色 O1S",
+                "url": "https://item.jd.com/100322340371.html"
               }
             ],
-            "effective_samples": 0,
-            "observed_records": 0,
+            "effective_samples": 1,
+            "observed_records": 1,
             "uncounted_records": 0
           },
           {
             "brand": "NILLKIN / 耐尔金",
             "status": "本轮未找到明确商品",
             "channels": [
+              "品牌官网或品牌旗舰分类",
               "淘宝定向检索＋中国/全球官网分类"
             ],
-            "note": "中文华为型号列表及淘宝所读首屏未见明确Mate X8；商品卡存在动态加载缺口，非完整库存。",
+            "note": "中国官网保护类的华为型号列表列有Mate 90、Mate X6/X5/X3；该目录未查见Mate X8。品牌已公告全球新站为nillkin.com。零售站此前的无搜索结果不单独作为品牌结论。",
             "sources": [
+              {
+                "label": "耐尔金中国官网华为型号列表",
+                "url": "https://www.nillkin.net/protected.aspx?categoryId=247&categoryIdss=247&fenlei=0&jixing=403&leixing=0&xilie=0"
+              },
+              {
+                "label": "耐尔金关于官网域名的公告",
+                "url": "https://www.nillkin.com/blogs/blog/your-nillkin-upgrade-starts-here-smarter-tech-enhanced-design-at-nillkin-com"
+              },
               {
                 "label": "品牌中国官网保护套/华为分类",
                 "url": "https://www.nillkin.net/protected.aspx?categoryId=261&categoryIdss=247&fenlei=261&jixing=403&leixing=0&xilie=0"
@@ -679,10 +704,27 @@
             "brand": "Benks / 邦克仕",
             "status": "本轮未找到明确商品",
             "channels": [
+              "品牌官网或品牌旗舰分类",
               "淘宝定向检索＋旗舰菱格型号＋全球壳目录"
             ],
-            "note": "旗舰菱格链接实际只有X7／典藏版，未见X8；全球目录未见Huawei，中文官网读取仍有缺口。",
+            "note": "京东品牌旗舰店华为专区导航含Pura X View、Pura X Max、Mate XT 2等系列，未列Mate X8；Find X8归属OPPO。中文官网产品老目录曾由浏览器读到iPhone 12至14等旧款，新品覆盖有限；官网首页在这次公开读取中转向全球站，首页主推iPhone 18和三星折叠系列。",
             "sources": [
+              {
+                "label": "邦克仕京东旗舰店",
+                "url": "https://benks.jd.com/"
+              },
+              {
+                "label": "邦克仕中文官网入口",
+                "url": "https://www.benks.com.cn/"
+              },
+              {
+                "label": "中文产品目录",
+                "url": "https://www.benks.com.cn/products/c-18.html"
+              },
+              {
+                "label": "旗舰店内X8检索",
+                "url": "https://benks.tmall.com/search.htm?q=X8"
+              },
               {
                 "label": "旗舰旧款型号核对",
                 "url": "https://detail.tmall.com/item.htm?id=1001245460357"
@@ -704,17 +746,26 @@
             "brand": "PITAKA",
             "status": "本轮未找到明确商品",
             "channels": [
+              "品牌官网或品牌旗舰分类",
               "淘宝定向检索＋旗舰型号＋中国目录/媒体＋全球新品"
             ],
-            "note": "旗舰日落月升所读链接实际只有X7／典藏版；列明官网与淘宝入口未见明确X8，国内上新可能不同步。",
+            "note": "中国官网产品列表检索“华为”无匹配；品牌京东旗舰店的华为手机壳导航列有X7系列及Mate80/70，未列X8。本次未核到Mate X8在售SKU。",
             "sources": [
+              {
+                "label": "PITAKA中国官网产品目录",
+                "url": "https://www.ipitaka.com.cn/products.html"
+              },
+              {
+                "label": "PITAKA京东旗舰店华为分区",
+                "url": "https://pitaka.jd.com/view_search-1592395-1010168742-99-1-20-1.html"
+              },
+              {
+                "label": "旗舰店内X8检索",
+                "url": "https://pitaka.tmall.com/search.htm?q=X8"
+              },
               {
                 "label": "旗舰旧款型号核对",
                 "url": "https://detail.tmall.com/item.htm?id=1008213013340"
-              },
-              {
-                "label": "品牌中国官网产品目录",
-                "url": "https://www.ipitaka.com.cn/products.html"
               },
               {
                 "label": "品牌中国官网媒体中心",
@@ -769,7 +820,7 @@
             "channels": [
               "淘宝经销商具体配置＋公开零售目录"
             ],
-            "note": "已选Mate X8／黑色，券/金币后119.16元。灰鲸数码非旗舰、授权未核；泛参数误写Mate XT，准确X8图片仍缺。",
+            "note": "两款分别为至尊指环支架和绅士磁吸中轴，均来自经销商公开页。所选X8配置有对应价格，品牌授权与实机适配未核。",
             "sources": [
               {
                 "label": "淘宝具体X8配置（经销商）",
@@ -778,10 +829,14 @@
               {
                 "label": "COVEROPOLIS具名零售品牌集合，授权关系未确认",
                 "url": "https://www.coveropolis.com/collections/sulada-cases"
+              },
+              {
+                "label": "绅士系列黑色配置",
+                "url": "https://item.taobao.com/item.htm?id=1100591177277&skuId=6322661306188"
               }
             ],
-            "effective_samples": 1,
-            "observed_records": 1,
+            "effective_samples": 2,
+            "observed_records": 2,
             "uncounted_records": 0
           },
           {
@@ -858,6 +913,73 @@
               {
                 "label": "杰美特Huawei专区",
                 "url": "https://www.jamepda.com/cn_productlist/cid/16.html"
+              }
+            ],
+            "effective_samples": 0,
+            "observed_records": 0,
+            "uncounted_records": 0
+          },
+          {
+            "brand": "CONGA",
+            "status": "找到线索待核",
+            "channels": [
+              "旗舰店店内检索",
+              "具体X8商品与型号选项",
+              "中国大陆／香港视图对照",
+              "京东自营公开目录及历史索引"
+            ],
+            "note": "天猫核查当日仅上盖可选。京东此前的公开索引曾列 Mate X8 前盖与后盖整套；本轮直接复核未取得整套的独立商品编号、公开报价及可下单状态。",
+            "sources": [
+              {
+                "label": "旗舰店X8系列商品页",
+                "url": "https://detail.tmall.com/item.htm?id=1102184928117"
+              },
+              {
+                "label": "店内X8检索",
+                "url": "https://conga.tmall.com/search.htm?q=X8"
+              }
+            ],
+            "effective_samples": 0,
+            "observed_records": 1,
+            "uncounted_records": 1
+          },
+          {
+            "brand": "摩斐",
+            "status": "已收录明确商品",
+            "channels": [
+              "京东自营目录",
+              "京东商品链接"
+            ],
+            "note": "三种结构均有独立的京东自营商品编号。相同标题的配色合并，当前公开页面未见对应报价。",
+            "sources": [
+              {
+                "label": "摩斐自营公开列表",
+                "url": "https://www.jd.com/xinkuan/99877d1dc3f90be861d4.html"
+              }
+            ],
+            "effective_samples": 3,
+            "observed_records": 3,
+            "uncounted_records": 0
+          },
+          {
+            "brand": "华为原厂",
+            "status": "本轮未找到明确商品",
+            "channels": [
+              "品牌官网或品牌旗舰分类"
+            ],
+            "note": "华为中国官网配件页有157条；本次首屏含Mate 90系列与Mate XT 2壳，网站地图列出X7旋转支架壳和微泵液冷壳、X6系列。网站地图未匹配Mate X8。华为商城既有X8检索中只见机型预约等，未核到X8壳的独立价格与商品配置。",
+            "sources": [
+              {
+                "label": "华为官网配件目录",
+                "url": "https://consumer.huawei.com/cn/accessories/"
+              },
+              {
+                "label": "华为中国网站地图",
+                "url": "https://consumer.huawei.com/cn/sitemap/"
+              },
+              {
+                "label": "X7旋转支架原商品，排除旧型号",
+                "url": "https://consumer.huawei.com/cn/accessories/mate-x7-rotating-stand-pu-case/"
               }
             ],
             "effective_samples": 0,
@@ -16095,6 +16217,318 @@
       "product_url": "https://item.taobao.com/item.htm?id=901578068861&skuId=6158641020340",
       "image": "",
       "image_note": "已选Mate X8配置，当前图库为混合机型系列宣传，准确X8图待补。",
+      "tags": []
+    },
+    {
+      "id": "28c523e558d543068820",
+      "phone_key": "huawei-mate-x8",
+      "brand": "CONGA",
+      "product_name": "Mate X8 磁吸／护轴系列（整壳待核）",
+      "series": "Mate X8 磁吸金属圈／护轴系列",
+      "price": null,
+      "currency": "",
+      "product_url": "https://detail.tmall.com/item.htm?id=1102184928117",
+      "image": "assets/matex8_fd5e5edb6656eb832451.webp",
+      "image_note": "商家Mate X8预发布系列宣传示意；非所选SKU实拍，完整壳配置待核，未实机验证。",
+      "tags": []
+    },
+    {
+      "id": "153943e765a51efc0b1a",
+      "phone_key": "huawei-mate-x8",
+      "brand": "Andmo/安帝美",
+      "product_name": "双指环旋转支架轻薄后壳",
+      "series": "双指环后盖",
+      "price": 198,
+      "currency": "CNY",
+      "product_url": "https://detail.tmall.com/item.htm?id=1098689190139&skuId=6321691498404",
+      "image": "",
+      "image_note": "未采用同页旧／混合X7图库。",
+      "tags": []
+    },
+    {
+      "id": "20a675e20158c7b8a4db",
+      "phone_key": "huawei-mate-x8",
+      "brand": "卡蕴 / KAYUN",
+      "product_name": "双中轴360°旋转支架壳",
+      "series": "HWMTX-ZXSP360-LFF",
+      "price": 174,
+      "currency": "CNY",
+      "product_url": "https://detail.tmall.com/item.htm?id=1100687396107&skuId=6322036358725",
+      "image": "assets/matex8_daaab59f14022a69444d.webp",
+      "image_note": "玄黑色配置图，图中可见双中轴及360度旋转环架；同商品主图另标Mate X8系列。商家预发布示意。",
+      "tags": []
+    },
+    {
+      "id": "def5dce7854f2103cccf",
+      "phone_key": "huawei-mate-x8",
+      "brand": "今觉",
+      "product_name": "透明亚克力壳膜一体旋转支架壳",
+      "series": "超清透亮·亚克力旋转支架",
+      "price": 138,
+      "currency": "CNY",
+      "product_url": "https://detail.tmall.com/item.htm?id=1101963348072&skuId=6323033530394",
+      "image": "assets/matex8_e51612005a9002b1edc7.webp",
+      "image_note": "商品详情宣传图标注MateX8，展示白色等多色透明壳、可翻环式支架与中轴；商家预发布示意。",
+      "tags": []
+    },
+    {
+      "id": "addcf0e0531db485ffad",
+      "phone_key": "huawei-mate-x8",
+      "brand": "御丞",
+      "product_name": "皮面全包保护壳",
+      "series": "轻奢皮套壳·基础款",
+      "price": 128,
+      "currency": "CNY",
+      "product_url": "https://detail.tmall.com/item.htm?id=1099077591782&skuId=6323358310162",
+      "image": "assets/matex8_9343fb233c9e8ceb1cf2.webp",
+      "image_note": "所选星云白配置图。商品页只列Mate X8和典藏版，同图库有同构图X8标注及镜组近景；商家预发布示意。",
+      "tags": []
+    },
+    {
+      "id": "f04a7bc6cf78884edf0c",
+      "phone_key": "huawei-mate-x8",
+      "brand": "涛森迪",
+      "product_name": "纳帕纹双中轴磁吸后壳",
+      "series": "电镀纳帕纹双中轴",
+      "price": 68.6,
+      "currency": "CNY",
+      "product_url": "https://detail.tmall.com/item.htm?id=1098276442595&skuId=6321279315293",
+      "image": "assets/matex8_cd1595f28b22a56d2eef.webp",
+      "image_note": "玄黑色后壳所选配置图，图中标出“适用MateX8”“玄黑色”及双中轴磁吸。商家预发布示意。",
+      "tags": []
+    },
+    {
+      "id": "29eb73c24b3078a76a15",
+      "phone_key": "huawei-mate-x8",
+      "brand": "御丞",
+      "product_name": "磁吸智能视窗翻盖壳",
+      "series": "磁吸翻盖皮套·视窗版",
+      "price": 128,
+      "currency": "CNY",
+      "product_url": "https://detail.tmall.com/item.htm?id=1099817426754&skuId=6323252727048",
+      "image": "",
+      "image_note": "",
+      "tags": []
+    },
+    {
+      "id": "a774886c801ac8d6147e",
+      "phone_key": "huawei-mate-x8",
+      "brand": "JaneEyre",
+      "product_name": "顶奢支点磁吸皮壳",
+      "series": "顶奢支点",
+      "price": 139.0,
+      "currency": "CNY",
+      "product_url": "https://detail.tmall.com/item.htm?id=1099004610313&skuId=6322022986076",
+      "image": "",
+      "image_note": "",
+      "tags": []
+    },
+    {
+      "id": "35c7382f47bdc900b85f",
+      "phone_key": "huawei-mate-x8",
+      "brand": "尚艺",
+      "product_name": "金边镜圈磁吸铰链皮壳",
+      "series": "金边镜圈",
+      "price": 133.86,
+      "currency": "CNY",
+      "product_url": "https://item.taobao.com/item.htm?id=1098341765801&skuId=6159081749567",
+      "image": "assets/matex8_2bd81fa671f3954e0650.webp",
+      "image_note": "商家配置图标注 Mate X8，已核对所选颜色与结构。图片为商家示意，未作实机验证。",
+      "tags": []
+    },
+    {
+      "id": "8612700f5752e8ca13ac",
+      "phone_key": "huawei-mate-x8",
+      "brand": "岭峰",
+      "product_name": "芳纶编织磁吸壳（含前框）",
+      "series": "芳纶磁吸",
+      "price": 254.0,
+      "currency": "CNY",
+      "product_url": "https://item.taobao.com/item.htm?id=1098993806009&skuId=6157470040758",
+      "image": "assets/matex8_86a2d9fb6fc36815918e.webp",
+      "image_note": "商家配置图标注 Mate X8，已核对所选颜色与结构。图片为商家示意，未作实机验证。",
+      "tags": []
+    },
+    {
+      "id": "dd2fe903ff00ac3571f8",
+      "phone_key": "huawei-mate-x8",
+      "brand": "拓行侠",
+      "product_name": "AG 磨砂半透明磁吸后壳",
+      "series": "隐砂",
+      "price": 57.72,
+      "currency": "CNY",
+      "product_url": "https://detail.tmall.com/item.htm?id=1094405201478&skuId=6150472617385",
+      "image": "",
+      "image_note": "",
+      "tags": []
+    },
+    {
+      "id": "bf9a9fee4ff16d0bd08f",
+      "phone_key": "huawei-mate-x8",
+      "brand": "中辰皓",
+      "product_name": "纳帕纹磁吸双中轴保护壳",
+      "series": "纳帕纹磁吸双中轴",
+      "price": 43.7,
+      "currency": "CNY",
+      "product_url": "https://detail.tmall.com/item.htm?id=1101414240233&skuId=6322464503914",
+      "image": "",
+      "image_note": "",
+      "tags": []
+    },
+    {
+      "id": "41731b2fd503014e7f0b",
+      "phone_key": "huawei-mate-x8",
+      "brand": "摩米欣",
+      "product_name": "蚕丝纹中轴保护后壳",
+      "series": "蚕丝纹中轴保护后壳",
+      "price": 51.0,
+      "currency": "CNY",
+      "product_url": "https://detail.tmall.com/item.htm?id=1096653163054&skuId=6322386439970",
+      "image": "assets/matex8_66bb56298a1a4748fcb5.webp",
+      "image_note": "商家所选米白配置图；镜组外观与 Mate X8 媒体图一致。",
+      "tags": []
+    },
+    {
+      "id": "b660a040e17b5d97b45a",
+      "phone_key": "huawei-mate-x8",
+      "brand": "鸿锦富",
+      "product_name": "内嵌旋转支架智能视窗翻盖壳",
+      "series": "内嵌旋转支架智能视窗翻盖壳",
+      "price": 193.0,
+      "currency": "CNY",
+      "product_url": "https://detail.tmall.com/item.htm?id=1099841953422&skuId=6157181168186",
+      "image": "",
+      "image_note": "",
+      "tags": []
+    },
+    {
+      "id": "b0be8d95a4a904c799e0",
+      "phone_key": "huawei-mate-x8",
+      "brand": "鸿锦富",
+      "product_name": "隐形腕带智能视窗翻盖壳",
+      "series": "隐形腕带智能视窗翻盖壳",
+      "price": 259.0,
+      "currency": "CNY",
+      "product_url": "https://detail.tmall.com/item.htm?id=1098865955391&skuId=6158561144994",
+      "image": "",
+      "image_note": "",
+      "tags": []
+    },
+    {
+      "id": "e4f967f907e77522de4a",
+      "phone_key": "huawei-mate-x8",
+      "brand": "鸿锦富",
+      "product_name": "磁吸智能视窗基础翻盖壳",
+      "series": "磁吸智能视窗基础翻盖壳",
+      "price": 168.0,
+      "currency": "CNY",
+      "product_url": "https://detail.tmall.com/item.htm?id=1098460671498&skuId=6158603073594",
+      "image": "",
+      "image_note": "",
+      "tags": []
+    },
+    {
+      "id": "7c0f7059c078aa8742fc",
+      "phone_key": "huawei-mate-x8",
+      "brand": "鸿锦富",
+      "product_name": "270°旋转腕带智能视窗翻盖壳",
+      "series": "270°旋转腕带智能视窗翻盖壳",
+      "price": 213.0,
+      "currency": "CNY",
+      "product_url": "https://detail.tmall.com/item.htm?id=1100550149736&skuId=6158167864795",
+      "image": "",
+      "image_note": "",
+      "tags": []
+    },
+    {
+      "id": "752674528fd6a75b2e83",
+      "phone_key": "huawei-mate-x8",
+      "brand": "鸿锦富",
+      "product_name": "双指环手持支架壳膜一体壳",
+      "series": "双指环手持支架壳膜一体壳",
+      "price": 223.0,
+      "currency": "CNY",
+      "product_url": "https://detail.tmall.com/item.htm?id=1101114589461&skuId=6323322930561",
+      "image": "",
+      "image_note": "",
+      "tags": []
+    },
+    {
+      "id": "bdd80e9bdecdcf43569a",
+      "phone_key": "huawei-mate-x8",
+      "brand": "ESCASE",
+      "product_name": "透明 PC 前后全包壳",
+      "series": "透明系列",
+      "price": 26.01,
+      "currency": "CNY",
+      "product_url": "https://detail.tmall.com/item.htm?id=1099538282962&skuId=6322878099573",
+      "image": "",
+      "image_note": "",
+      "tags": []
+    },
+    {
+      "id": "530d5ff35c82179a7f88",
+      "phone_key": "huawei-mate-x8",
+      "brand": "SULADA",
+      "product_name": "绅士系列磁吸中轴壳",
+      "series": "绅士系列",
+      "price": 78,
+      "currency": "CNY",
+      "product_url": "https://item.taobao.com/item.htm?id=1100591177277&skuId=6322661306188",
+      "image": "",
+      "image_note": "",
+      "tags": []
+    },
+    {
+      "id": "6a5e463f02b80f9bd48f",
+      "phone_key": "huawei-mate-x8",
+      "brand": "图拉斯",
+      "product_name": "O1S 素皮旋转支点壳",
+      "series": "O1S",
+      "price": null,
+      "currency": "",
+      "product_url": "https://item.jd.com/100421135098.html",
+      "image": "",
+      "image_note": "",
+      "tags": []
+    },
+    {
+      "id": "28ae1e5da6df8a0a0439",
+      "phone_key": "huawei-mate-x8",
+      "brand": "摩斐",
+      "product_name": "360° 旋转支架翻盖壳",
+      "series": "翻盖旋转支架",
+      "price": null,
+      "currency": "",
+      "product_url": "https://item.jd.com/100446664718.html",
+      "image": "",
+      "image_note": "",
+      "tags": []
+    },
+    {
+      "id": "2e21c1b950e006496a01",
+      "phone_key": "huawei-mate-x8",
+      "brand": "摩斐",
+      "product_name": "无感腕带翻盖壳",
+      "series": "无感腕带翻盖",
+      "price": null,
+      "currency": "",
+      "product_url": "https://item.jd.com/100337576959.html",
+      "image": "",
+      "image_note": "",
+      "tags": []
+    },
+    {
+      "id": "485abfb4d6145919f7d7",
+      "phone_key": "huawei-mate-x8",
+      "brand": "摩斐",
+      "product_name": "精孔镜头全包旋转支架壳",
+      "series": "精孔镜头全包",
+      "price": null,
+      "currency": "",
+      "product_url": "https://item.jd.com/100446678456.html",
+      "image": "",
+      "image_note": "",
       "tags": []
     }
   ],

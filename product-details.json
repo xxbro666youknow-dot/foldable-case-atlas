@@ -10502,6 +10502,891 @@
         }
       ],
       "checked_date": "2026-11-18"
+    },
+    "28c523e558d543068820": {
+      "display_name": "Mate X8 磁吸／护轴系列（整壳待核）",
+      "variant": "Mate X8／典藏版；完整壳配置当前不可选",
+      "variants_note": "列出普通磁吸、带中轴保护两种路线；上盖、后盖、整套和支架组合分列，颜色与组合不拆计。",
+      "price": null,
+      "currency": "",
+      "price_note": "未取得可绑定完整壳SKU的价格。未完整选配时展示的109元不当作整壳价格，也未核到具体上盖实选价。",
+      "verified_date": "2026-11-18",
+      "sale_status": "已上架 · 完整壳配置待核",
+      "status_type": "待核",
+      "status_note": "本记录暂不计有效样本。完整壳配置均不可选，未验证完整壳可购或发货；切中国大陆视图后仍相同。",
+      "region": "中国淘宝/天猫",
+      "channel": {
+        "id": "tmall",
+        "label": "天猫 · CONGA旗舰店",
+        "basis": "实际店铺及品牌参数；官方身份以平台展示为准",
+        "url": "https://detail.tmall.com/item.htm?id=1102184928117"
+      },
+      "summary": "旗舰店已公开X8系列，含无护轴／带护轴路线及多种编织图案；当前仅作上架观察，不计有效商品。参数标称芳纶，未实物验证。",
+      "evidence": {
+        "model": "实际商品页品牌Conga、型号Mate X8及典藏版明确；两型号下完整壳／后壳／护轴壳配置均不可选，只有上盖可用。",
+        "price": "整壳选项禁选，未核到具体整壳SKU价格。",
+        "availability": "标准版与典藏版完整壳配置均禁选；仅上盖可用，未作完整壳库存证明。",
+        "features": "系列图明示Mate X8。宣传图23.8g／1.28mm仅为400D黑绿磁吸金属圈特定系列商家标称，不推所有款式。"
+      },
+      "sources": [
+        {
+          "url": "https://detail.tmall.com/item.htm?id=1102184928117",
+          "label": "CONGA旗舰店X8系列商品页",
+          "title": "conga适用华为matex8手机壳中轴全包x8凯夫拉芳纶纤维纹保护套超薄防摔典藏版折叠屏磁吸铰链配件商务磨砂外",
+          "note": "实际读取型号、禁选配置、参数与宣传图；不是实物适配验证。"
+        },
+        {
+          "url": "https://conga.tmall.com/search.htm?q=X8",
+          "label": "店内X8检索入口",
+          "title": "CONGA旗舰店X8店内结果",
+          "note": "全站首屏未命中，店内结果实际找到本条。"
+        },
+        {
+          "url": "https://img.alicdn.com/imgextra/i1/2201211237103/O1CN015HHOWb1fzUH3FPpA_!!4611686018427384559-2-item_pic.png_q50.jpg_.webp",
+          "label": "预发布系列示意图来源",
+          "title": "CONGA Mate X8系列",
+          "note": "商家Mate X8预发布系列宣传示意；非所选SKU实拍，完整壳配置待核，未实机验证。"
+        }
+      ],
+      "availability_note": "天猫核查当日仅上盖可选。京东此前的公开索引曾列 Mate X8 前盖与后盖整套；本轮直接复核未取得整套的独立商品编号、公开报价及可下单状态。",
+      "checked_date": "2026-11-18"
+    },
+    "153943e765a51efc0b1a": {
+      "display_name": "双指环旋转支架轻薄后壳",
+      "variant": "Mate X8；轻薄后壳-寰宇红（仅后壳）",
+      "variants_note": "所选为实体后壳，未含前框或AR贴膜套餐；黑／白后壳在本次X8选择下不可选。",
+      "price": 198,
+      "currency": "CNY",
+      "price_note": "2026-11-18已选Mate X8＋寰宇红轻薄实体后壳，店铺优惠后198元，优惠前268元；非VIP服务价，非成交价，套餐配置另售。",
+      "verified_date": "2026-11-18",
+      "sale_status": "页面提示即将售罄 · 有购买按钮",
+      "status_type": "在售",
+      "status_note": "型号选项及适用列表标X8，但泛型号字段仍写X7／X7典藏版。适配、材料、功能与库存是商家主张，未实机或发货验证。",
+      "region": "中国淘宝/天猫",
+      "channel": {
+        "id": "tmall",
+        "label": "天猫 · andmo安帝美旗舰店",
+        "basis": "实际商品页品牌参数与店铺名称",
+        "url": "https://detail.tmall.com/item.htm?id=1098689190139&skuId=6321691498404"
+      },
+      "summary": "双指环旋转支架后盖，所选配置标称双中轴及镜头全包；与270°腕带壳膜一体款分开记录。",
+      "evidence": {
+        "model": "实际选择华为Mate X8与轻薄后壳-寰宇红，均selected且enabled，绑定skuId6321691498404；泛型号参数仍写X7，仅作商家适配主张。",
+        "price": "实体红色后壳选中后198元，已排除VIP服务选项。",
+        "availability": "即将售罄与购买按钮只记录页面状态，未下单或核实际库存。",
+        "features": "所选实体颜色标指环支架、双中轴全包、镜头全包；材料基材未实物核验。"
+      },
+      "sources": [
+        {
+          "url": "https://detail.tmall.com/item.htm?id=1098689190139&skuId=6321691498404",
+          "label": "安帝美旗舰所选实体配置",
+          "title": "[无感握持]适用华为x8手机壳新款mateX7典藏版折叠屏真皮保护壳防摔中轴镜头全包超薄mt双指环旋转支架x7外壳-tmall.com天猫",
+          "note": "2026-11-18实际选择Mate X8和红色后壳；未采用旧X7图库。"
+        }
+      ],
+      "checked_date": "2026-11-18"
+    },
+    "20a675e20158c7b8a4db": {
+      "display_name": "双中轴360°旋转支架壳",
+      "variant": "Mate X8；【玄黑色】甄选Nappa真皮工艺★360°旋转支架★军工防摔",
+      "variants_note": "本次仅核玄黑Nappa工艺实体款；其他颜色及进口头层牛皮升级不另计。",
+      "price": 174,
+      "currency": "CNY",
+      "price_note": "2026-11-18选择Mate X8与玄黑Nappa工艺360°旋转支架实体款后，页面店铺优惠后174元、优惠前198元；仅对应SKU6322036358725，账号、地区及优惠可能影响价格，非成交价。",
+      "verified_date": "2026-11-18",
+      "sale_status": "页面标有货 · 可加入购物车",
+      "status_type": "在售",
+      "status_note": "品牌、机型适配、材料、功能及供货均为商家页面主张；Mate X8未发布，未获手机官方适配或实机验证。Nappa真皮工艺、军工防摔、磁力与耐用性能均未验证；未验证实际发货。",
+      "region": "中国淘宝/天猫",
+      "channel": {
+        "id": "tmall",
+        "label": "天猫 · 卡蕴商品页",
+        "basis": "正常可读商品页与品牌参数；本份证据未留存店铺名称，不据品牌推定旗舰店。",
+        "url": "https://detail.tmall.com/item.htm?id=1100687396107&skuId=6322036358725"
+      },
+      "summary": "商家标称双中轴覆盖、360°旋转支架与磁吸；所选选项称Nappa真皮工艺，基材未独立核实。",
+      "evidence": {
+        "model": "型号选项华为Mate X8及玄黑Nappa工艺360°旋转支架款均selected=true、disabled=false；页面URL绑定SKU6322036358725。",
+        "price": "已选具体实体SKU6322036358725，页面店铺优惠后174 CNY、优惠前198 CNY。",
+        "availability": "页面可见有货、加入购物车和领券购买；不等同实际发货验证。",
+        "features": "360°旋转支架来自所选实体配置；双中轴与磁吸来自同页商品标题。所售实体选项均以360°支架为主壳特征，未见赠支架或单独支架。Nappa真皮工艺仅为商家主张，未独立取得基材证据，不贴天然皮革标签。"
+      },
+      "sources": [
+        {
+          "url": "https://detail.tmall.com/item.htm?id=1100687396107&skuId=6322036358725",
+          "label": "天猫商品页",
+          "title": "适用于华为matex8手机壳新款真皮HUAWEIMateX7折叠屏双中轴全包防摔保护套x6金属磁吸旋转支架简约商务高级感-tmall.com天猫",
+          "note": "2026-11-18正常可读商品页与精确实体SKU核验；未验证实机适配、材料或实际发货。"
+        }
+      ],
+      "checked_date": "2026-11-18"
+    },
+    "def5dce7854f2103cccf": {
+      "display_name": "透明亚克力壳膜一体旋转支架壳",
+      "variant": "Mate X8；【雪域白-高清版】360°旋转支架丨超清超透丨磁吸铰链全包",
+      "variants_note": "配图为同一Mate X8系列的多配色展示。仅计透明亚克力主壳系列1款；其他颜色、防窥及康宁玻璃前壳升级不拆计。",
+      "price": 138,
+      "currency": "CNY",
+      "price_note": "2026-11-18选择Mate X8与雪域白高清实体款后，页面店铺优惠后138元、优惠前173元；仅对应SKU6323033530394，账号、地区及优惠可能影响价格，非成交价。",
+      "verified_date": "2026-11-18",
+      "sale_status": "页面标有货 · 可加入购物车",
+      "status_type": "在售",
+      "status_note": "品牌、适配、亚克力基材、功能与供货均为商家页面主张；Mate X8未发布，未获手机官方适配或实机验证。真机开模、环保认证、防摔与充电兼容等未作独立验证，未验证实际发货。",
+      "region": "中国淘宝/天猫",
+      "channel": {
+        "id": "tmall",
+        "label": "天猫 · 今觉旗舰店",
+        "basis": "正常可读商品页、品牌参数与店铺名称。",
+        "url": "https://detail.tmall.com/item.htm?id=1101963348072&skuId=6323033530394"
+      },
+      "summary": "商家标称亚克力透明壳膜一体，所选高清款含360°旋转支架和磁吸铰链全包；未验证材料或实机适配。",
+      "evidence": {
+        "model": "已选华为Mate X8及雪域白高清实体款，二者均在selected中且disabled=false；URL绑定SKU6323033530394，参数含Mate X8。",
+        "price": "已选具体实体SKU6323033530394，页面店铺优惠后138 CNY、优惠前173 CNY。",
+        "availability": "页面有货、加入购物车与领券购买；预计发货信息仅商家显示，未验证实际供货。",
+        "features": "参数材质、保护套质地均为亚克力，工艺电镀；所选实体款明确360°旋转支架、磁吸铰链全包，款式壳膜一体。亚克力不归PC；不把真机开模、环保认证与防摔转成实证。"
+      },
+      "sources": [
+        {
+          "url": "https://detail.tmall.com/item.htm?id=1101963348072&skuId=6323033530394",
+          "label": "天猫商品页",
+          "title": "今觉适配华为matex8手机壳新款x7折叠屏磁吸高端Mate透明x7防摔的保护套后壳中轴全包matex8外壳典藏版x8壳",
+          "note": "2026-11-18正常可读商品页与精确实体SKU核验；未验证实机适配、材料或实际发货。"
+        }
+      ],
+      "checked_date": "2026-11-18"
+    },
+    "addcf0e0531db485ffad": {
+      "display_name": "皮面全包保护壳",
+      "variant": "华为 Mate X8 / 【星云白】原机质感★头层牛皮★全包防摔",
+      "variants_note": "仅计基础皮面保护壳一款，配色与本页磁吸升级选项合并。",
+      "price": 128,
+      "currency": "CNY",
+      "price_note": "2026-11-18所选实体配置显示店铺优惠后128元，优惠前151元。页面优惠随时间及账号变化。",
+      "verified_date": "2026-11-18",
+      "sale_status": "定时开售 · 11月19日 00:00",
+      "status_type": "待开售",
+      "status_note": "商家标称适配，未实机验证。库存及配送以实际购买时为准。",
+      "region": "中国淘宝/天猫",
+      "channel": {
+        "id": "tmall",
+        "label": "天猫 · 御丞旗舰店",
+        "basis": "天猫商品页及品牌参数",
+        "url": "https://detail.tmall.com/item.htm?id=1099077591782&skuId=6323358310162"
+      },
+      "summary": "星云白基础款。商家标称头层牛皮与全包保护。",
+      "evidence": {
+        "model": "商品页已选华为 Mate X8（44843447329）、【星云白】原机质感★头层牛皮★全包防摔（35948088422），选项均可用，绑定SKU 6323358310162。",
+        "price": "2026-11-18所选实体配置显示店铺优惠后128元，优惠前151元。",
+        "availability": "定时开售 · 11月19日 00:00。",
+        "features": "已选基础款标头层牛皮、全包，未验证材质。磁吸属于另售升级款。"
+      },
+      "sources": [
+        {
+          "url": "https://detail.tmall.com/item.htm?id=1099077591782&skuId=6323358310162",
+          "label": "天猫商品页",
+          "title": "【现货秒发】适用华为MateX8手机壳新款mateX8典藏版中轴折叠X8超薄全包防摔保护套x8高端磁吸翻盖男女真皮外",
+          "note": "2026-11-18核对商品参数及所选实体规格。"
+        }
+      ],
+      "checked_date": "2026-11-18"
+    },
+    "f04a7bc6cf78884edf0c": {
+      "display_name": "纳帕纹双中轴磁吸后壳",
+      "variant": "华为其他型号 / 华为Mate X8【玄黑色】电镀纳帕纹双中轴铰链后壳☆内置磁吸圈-送前屏水凝膜",
+      "variants_note": "赠送前屏水凝膜，各种配色不另计。",
+      "price": 68.6,
+      "currency": "CNY",
+      "price_note": "2026-11-18所选实体配置显示店铺优惠后68.6元，优惠前78元。页面优惠随时间及账号变化。",
+      "verified_date": "2026-11-18",
+      "sale_status": "页面提供领券购买及加入购物车",
+      "status_type": "在售",
+      "status_note": "商家标称适配，未实机验证。库存及配送以实际购买时为准。",
+      "region": "中国淘宝/天猫",
+      "channel": {
+        "id": "tmall",
+        "label": "天猫",
+        "basis": "天猫商品页及品牌参数",
+        "url": "https://detail.tmall.com/item.htm?id=1098276442595&skuId=6321279315293"
+      },
+      "summary": "玄黑色后壳，商家标称电镀纳帕纹、双中轴铰链和内置磁吸圈，附赠前屏水凝膜。",
+      "evidence": {
+        "model": "商品页已选华为其他型号（76708841）、华为Mate X8【玄黑色】电镀纳帕纹双中轴铰链后壳☆内置磁吸圈-送前屏水凝膜（45120479328），选项均可用，绑定SKU 6321279315293。平台通用型号栏写华为其他型号。已选实体后壳名称及商品型号参数均明确Mate X8。",
+        "price": "2026-11-18所选实体配置显示店铺优惠后68.6元，优惠前78元。",
+        "availability": "页面提供领券购买及加入购物车。",
+        "features": "所选配置标双中轴及内置磁吸圈。纳帕纹仅指商家列出的纹理，基材待核。"
+      },
+      "sources": [
+        {
+          "url": "https://detail.tmall.com/item.htm?id=1098276442595&skuId=6321279315293",
+          "label": "天猫商品页",
+          "title": "适用华为Mate X8手机壳折叠屏电镀纳帕纹双中轴铰链内置磁吸圈全包保护套mateX8简约商务时尚男女防摔后壳-tmall.com天猫",
+          "note": "2026-11-18核对商品参数及所选实体规格。"
+        }
+      ],
+      "checked_date": "2026-11-18"
+    },
+    "29eb73c24b3078a76a15": {
+      "display_name": "磁吸智能视窗翻盖壳",
+      "variant": "华为 Mate X8 / 【苍穹黑】甄选头层牛皮★磁吸智能视窗★细腻裸机手感",
+      "variants_note": "同一视窗系列的配色、进口皮料升级和附赠膜均只计一次。",
+      "price": 128,
+      "currency": "CNY",
+      "price_note": "2026-11-18所选实体配置显示店铺优惠后128元，优惠前160元。页面优惠随时间及账号变化。",
+      "verified_date": "2026-11-18",
+      "sale_status": "页面提供领券购买及加入购物车",
+      "status_type": "在售",
+      "status_note": "商家标称适配，未实机验证。库存及配送以实际购买时为准。",
+      "region": "中国淘宝/天猫",
+      "channel": {
+        "id": "tmall",
+        "label": "天猫 · 御丞旗舰店",
+        "basis": "天猫商品页及品牌参数",
+        "url": "https://detail.tmall.com/item.htm?id=1099817426754&skuId=6323252727048"
+      },
+      "summary": "苍穹黑磁吸智能视窗款。页面款式参数为翻盖式，商家标称头层牛皮。",
+      "evidence": {
+        "model": "商品页已选华为 Mate X8（44843447329）、【苍穹黑】甄选头层牛皮★磁吸智能视窗★细腻裸机手感（45141583905），选项均可用，绑定SKU 6323252727048。",
+        "price": "2026-11-18所选实体配置显示店铺优惠后128元，优惠前160元。",
+        "availability": "页面提供领券购买及加入购物车。",
+        "features": "已选实体配置标磁吸智能视窗，参数款式为翻盖式。皮料及视窗联动未实测。"
+      },
+      "sources": [
+        {
+          "url": "https://detail.tmall.com/item.htm?id=1099817426754&skuId=6323252727048",
+          "label": "天猫商品页",
+          "title": "适用华为x8手机壳新款真皮matex8典藏版折叠屏保护套镜头全包matex7磁吸智能视窗matex6超薄防摔高端奢华外壳",
+          "note": "2026-11-18核对商品参数及所选实体规格。"
+        }
+      ],
+      "checked_date": "2026-11-18"
+    },
+    "a774886c801ac8d6147e": {
+      "display_name": "顶奢支点磁吸皮壳",
+      "variant": "华为 Mate X8 / 顶奢支点款【晶钻白】进口头层牛皮★磁吸充电★还原真机质感",
+      "variants_note": "同一系列的配色和套餐合并计数。",
+      "price": 139.0,
+      "currency": "CNY",
+      "price_note": "2026-11-18 所选配置页面显示店铺优惠后 139 元。优惠受账号及时间影响。",
+      "verified_date": "2026-11-18",
+      "sale_status": "页面提供加入购物车与购买入口",
+      "status_type": "在售",
+      "status_note": "商家标称适配，未实机验证。",
+      "region": "中国淘宝/天猫",
+      "channel": {
+        "id": "tmall",
+        "label": "天猫 · janeeyre旗舰店",
+        "basis": "商品页品牌参数和可选实体规格",
+        "url": "https://detail.tmall.com/item.htm?id=1099004610313&skuId=6322022986076"
+      },
+      "summary": "所选配置为晶钻白带支架款，商家标称头层牛皮与磁吸。",
+      "evidence": {
+        "model": "商品页已选“华为 Mate X8”“顶奢支点款【晶钻白】进口头层牛皮★磁吸充电★还原真机质感”，对应 SKU 6322022986076。",
+        "price": "2026-11-18 所选配置页面显示店铺优惠后 139 元。",
+        "availability": "页面提供加入购物车与购买入口。",
+        "features": "所选配置为晶钻白带支架款，商家标称头层牛皮与磁吸。"
+      },
+      "sources": [
+        {
+          "url": "https://detail.tmall.com/item.htm?id=1099004610313&skuId=6322022986076",
+          "label": "天猫 · janeeyre旗舰店",
+          "title": "【现货秒发】适用华为MateX8手机壳新款matex7折叠屏中轴全包防摔X6典藏版磁吸支架真皮套x5高端翻盖男女外壳",
+          "note": "所选型号、实物配置与观察价见商品页。"
+        }
+      ],
+      "checked_date": "2026-11-18"
+    },
+    "35c7382f47bdc900b85f": {
+      "display_name": "金边镜圈磁吸铰链皮壳",
+      "variant": "华为 Mate X8 / 优雅黑",
+      "variants_note": "同一系列的配色和套餐合并计数。",
+      "price": 133.86,
+      "currency": "CNY",
+      "price_note": "2026-11-18 所选配置页面显示平台加补后 133.86 元。优惠受账号及时间影响。",
+      "verified_date": "2026-11-18",
+      "sale_status": "页面提供加入购物车与购买入口",
+      "status_type": "在售",
+      "status_note": "商家标称适配，未实机验证。",
+      "region": "中国淘宝/天猫",
+      "channel": {
+        "id": "taobao",
+        "label": "淘宝 · 展鹏数码商城",
+        "basis": "商品页品牌参数和可选实体规格",
+        "url": "https://item.taobao.com/item.htm?id=1098341765801&skuId=6159081749567"
+      },
+      "summary": "优雅黑款的商品图显示金色分段镜圈与双边包覆，材质按商家参数记为真皮。",
+      "evidence": {
+        "model": "商品页已选“华为 Mate X8”“优雅黑”，对应 SKU 6159081749567。",
+        "price": "2026-11-18 所选配置页面显示平台加补后 133.86 元。",
+        "availability": "页面提供加入购物车与购买入口。",
+        "features": "优雅黑款的商品图显示金色分段镜圈与双边包覆，材质按商家参数记为真皮。"
+      },
+      "sources": [
+        {
+          "url": "https://item.taobao.com/item.htm?id=1098341765801&skuId=6159081749567",
+          "label": "淘宝 · 展鹏数码商城",
+          "title": "适用华为Mate X8手机壳真皮男女新款Huawei matex8典藏版折叠屏磁吸中轴铰链全包保护套电镀时尚简约商务防摔",
+          "note": "所选型号、实物配置与观察价见商品页。"
+        }
+      ],
+      "checked_date": "2026-11-18"
+    },
+    "8612700f5752e8ca13ac": {
+      "display_name": "芳纶编织磁吸壳（含前框）",
+      "variant": "华为 Mate X8 / 【细纹黑+前框】凯夫拉磁吸款",
+      "variants_note": "同一系列的配色和套餐合并计数。",
+      "price": 254.0,
+      "currency": "CNY",
+      "price_note": "2026-11-18 所选配置页面显示平台加补后 254 元。优惠受账号及时间影响。",
+      "verified_date": "2026-11-18",
+      "sale_status": "页面提供加入购物车与购买入口",
+      "status_type": "在售",
+      "status_note": "商家标称适配，未实机验证。",
+      "region": "中国淘宝/天猫",
+      "channel": {
+        "id": "taobao",
+        "label": "淘宝 · 岭峰数码",
+        "basis": "商品页品牌参数和可选实体规格",
+        "url": "https://item.taobao.com/item.htm?id=1098993806009&skuId=6157470040758"
+      },
+      "summary": "所选细纹黑包括后壳与前框，页面标称芳纶纤维和内置磁吸，支架为赠品。",
+      "evidence": {
+        "model": "商品页已选“华为 Mate X8”“【细纹黑+前框】凯夫拉磁吸款”，对应 SKU 6157470040758。",
+        "price": "2026-11-18 所选配置页面显示平台加补后 254 元。",
+        "availability": "页面提供加入购物车与购买入口。",
+        "features": "所选细纹黑包括后壳与前框，页面标称芳纶纤维和内置磁吸，支架为赠品。"
+      },
+      "sources": [
+        {
+          "url": "https://item.taobao.com/item.htm?id=1098993806009&skuId=6157470040758",
+          "label": "淘宝 · 岭峰数码",
+          "title": "轻薄1mm/22g凯夫拉编织磁吸适用华为mateX8手机壳新款Mate X8典藏版折叠屏芳纶碳纤维散热男士保护套前框后壳",
+          "note": "所选型号、实物配置与观察价见商品页。"
+        }
+      ],
+      "checked_date": "2026-11-18"
+    },
+    "dd2fe903ff00ac3571f8": {
+      "display_name": "AG 磨砂半透明磁吸后壳",
+      "variant": "华为 Mate X8 隐砂透白*双中轴全包【强磁吸款】防摔王者",
+      "variants_note": "同一系列的配色和套餐合并计数。",
+      "price": 57.72,
+      "currency": "CNY",
+      "price_note": "2026-11-18 所选配置页面显示平台加补后 57.72 元。优惠受账号及时间影响。",
+      "verified_date": "2026-11-18",
+      "sale_status": "页面提供加入购物车与购买入口",
+      "status_type": "在售",
+      "status_note": "商家标称适配，未实机验证。",
+      "region": "中国淘宝/天猫",
+      "channel": {
+        "id": "tmall",
+        "label": "天猫 · 拓行侠旗舰店",
+        "basis": "商品页品牌参数和可选实体规格",
+        "url": "https://detail.tmall.com/item.htm?id=1094405201478&skuId=6150472617385"
+      },
+      "summary": "所选隐砂透白配置标注双中轴和磁吸，商家称为半透明磨砂后壳。",
+      "evidence": {
+        "model": "商品页已选“华为 Mate X8 隐砂透白*双中轴全包【强磁吸款】防摔王者”，对应 SKU 6150472617385。",
+        "price": "2026-11-18 所选配置页面显示平台加补后 57.72 元。",
+        "availability": "页面提供加入购物车与购买入口。",
+        "features": "所选隐砂透白配置标注双中轴和磁吸，商家称为半透明磨砂后壳。"
+      },
+      "sources": [
+        {
+          "url": "https://detail.tmall.com/item.htm?id=1094405201478&skuId=6150472617385",
+          "label": "天猫 · 拓行侠旗舰店",
+          "title": "轻砂透白AG磨砂【超强磁吸】适用华为MateX8手机壳Mate X8折叠屏中轴全包保护套X7/X6高级肤感防指纹超薄后壳",
+          "note": "所选型号、实物配置与观察价见商品页。"
+        }
+      ],
+      "checked_date": "2026-11-18"
+    },
+    "bf9a9fee4ff16d0bd08f": {
+      "display_name": "纳帕纹磁吸双中轴保护壳",
+      "variant": "华为 Mate X8 / 「红色」磁吸双中轴☆铰链保护套",
+      "variants_note": "同系列四款配色合并计数。",
+      "price": 43.7,
+      "currency": "CNY",
+      "price_note": "11月18日所选红色配置店铺优惠后43.70元，优惠前50.80元。",
+      "verified_date": "2026-11-18",
+      "sale_status": "页面标有货，可领券购买",
+      "status_type": "在售",
+      "status_note": "商家标称适配，未实机验证。",
+      "region": "中国淘宝/天猫",
+      "channel": {
+        "id": "tmall",
+        "label": "天猫 · 中辰皓旗舰店",
+        "basis": "天猫商品参数与店铺名称",
+        "url": "https://detail.tmall.com/item.htm?id=1101414240233&skuId=6322464503914"
+      },
+      "summary": "基础磁吸款，包覆双中轴，表面为商家标称的纳帕纹，基材未知。",
+      "evidence": {
+        "model": "页面已选择华为 Mate X8（44843447329）与「红色」磁吸双中轴☆铰链保护套（40593063758），两选项可用，SKU 6322464503914。",
+        "price": "11月18日所选红色配置店铺优惠后43.70元，优惠前50.80元。",
+        "availability": "页面显示有货及领券购买。",
+        "features": "标题、商品型号和全部可选配置均表述为磁吸双中轴保护套。参数写有内置磁环和纳帕纹。"
+      },
+      "sources": [
+        {
+          "url": "https://detail.tmall.com/item.htm?id=1101414240233&skuId=6322464503914",
+          "label": "天猫商品页",
+          "title": "适用于华为mate x8磁吸双中轴手机壳新款x8铰链保护套大孔镜头简约时尚真皮质感纳帕纹x8内置磁环磁吸无线充",
+          "note": "2026-11-18实际读取的所选配置及标价。"
+        }
+      ],
+      "checked_date": "2026-11-18"
+    },
+    "41731b2fd503014e7f0b": {
+      "display_name": "蚕丝纹中轴保护后壳",
+      "variant": "华为 Mate X8 / 中轴全包【米白色蚕丝纹】单后壳",
+      "variants_note": "同结构不同配色及屏膜版本合并。",
+      "price": 51.0,
+      "currency": "CNY",
+      "price_note": "2026-11-18所选配置店铺优惠后51元，优惠前58元。",
+      "verified_date": "2026-11-18",
+      "sale_status": "页面可领券购买、可加入购物车",
+      "status_type": "在售",
+      "status_note": "商家标称适配，实际发货和真机效果待验证。",
+      "region": "中国淘宝/天猫",
+      "channel": {
+        "id": "tmall",
+        "label": "天猫 · 摩米欣旗舰店",
+        "basis": "店铺及商品品牌参数",
+        "url": "https://detail.tmall.com/item.htm?id=1096653163054&skuId=6322386439970"
+      },
+      "summary": "中轴全包，仅含后壳。蚕丝纹指表面纹理，基材未核。",
+      "evidence": {
+        "model": "商品页已选华为 Mate X8（44843447329）和中轴全包【米白色蚕丝纹】单后壳（45048208614），均可选，SKU 6322386439970。",
+        "price": "2026-11-18所选配置店铺优惠后51元，优惠前58元。",
+        "availability": "页面可领券购买、可加入购物车",
+        "features": "中轴全包，仅含后壳。蚕丝纹指表面纹理，基材未核。"
+      },
+      "sources": [
+        {
+          "url": "https://detail.tmall.com/item.htm?id=1096653163054&skuId=6322386439970",
+          "label": "天猫商品页",
+          "title": "适用华为matex8手机壳mate x7典藏版中轴全包x6折叠屏x5蚕丝皮纹保护套超薄时尚防摔简约商务",
+          "note": "2026-11-18核对所选实体规格及商品参数。"
+        }
+      ],
+      "checked_date": "2026-11-18"
+    },
+    "b660a040e17b5d97b45a": {
+      "display_name": "内嵌旋转支架智能视窗翻盖壳",
+      "variant": "华为 Mate X8 / 首创隐形支架【曜石黑】头层牛皮★四角全包★全包镜头★智能视窗★支持无线充",
+      "variants_note": "同结构不同配色及屏膜版本合并。",
+      "price": 193.0,
+      "currency": "CNY",
+      "price_note": "2026-11-18所选配置平台加补后193元，优惠前298元。",
+      "verified_date": "2026-11-18",
+      "sale_status": "页面可领券购买、可加入购物车",
+      "status_type": "在售",
+      "status_note": "商家标称适配，实际发货和真机效果待验证。",
+      "region": "中国淘宝/天猫",
+      "channel": {
+        "id": "tmall",
+        "label": "天猫 · 鸿锦富旗舰店",
+        "basis": "店铺及商品品牌参数",
+        "url": "https://detail.tmall.com/item.htm?id=1099841953422&skuId=6157181168186"
+      },
+      "summary": "商家标明内嵌式360°旋转支架、智能视窗及头层牛皮。",
+      "evidence": {
+        "model": "商品页已选华为 Mate X8（44843447329）和首创隐形支架【曜石黑】头层牛皮★四角全包★全包镜头★智能视窗★支持无线充（42529717716），均可选，SKU 6157181168186。",
+        "price": "2026-11-18所选配置平台加补后193元，优惠前298元。",
+        "availability": "页面可领券购买、可加入购物车",
+        "features": "商家标明内嵌式360°旋转支架、智能视窗及头层牛皮。"
+      },
+      "sources": [
+        {
+          "url": "https://detail.tmall.com/item.htm?id=1099841953422&skuId=6157181168186",
+          "label": "天猫商品页",
+          "title": "[官方正品]鸿锦富适用华为x8手机壳新款matex8典藏版折叠屏全包镜防摔保护壳真皮磁吸翻盖旋转支架x8外壳高端",
+          "note": "2026-11-18核对所选实体规格及商品参数。"
+        }
+      ],
+      "checked_date": "2026-11-18"
+    },
+    "b0be8d95a4a904c799e0": {
+      "display_name": "隐形腕带智能视窗翻盖壳",
+      "variant": "华为 Mate X8 / 首创隐形腕带【苍穹黑】支持磁吸无线充⭐️智能视窗⭐️镜头全包",
+      "variants_note": "同结构不同配色及屏膜版本合并。",
+      "price": 259.0,
+      "currency": "CNY",
+      "price_note": "2026-11-18所选配置店铺优惠后259元，优惠前295元。",
+      "verified_date": "2026-11-18",
+      "sale_status": "页面可领券购买、可加入购物车",
+      "status_type": "在售",
+      "status_note": "商家标称适配，实际发货和真机效果待验证。",
+      "region": "中国淘宝/天猫",
+      "channel": {
+        "id": "tmall",
+        "label": "天猫 · 鸿锦富旗舰店",
+        "basis": "店铺及商品品牌参数",
+        "url": "https://detail.tmall.com/item.htm?id=1098865955391&skuId=6158561144994"
+      },
+      "summary": "商家标明隐形腕带、磁吸支撑、智能视窗，腕带可收回。",
+      "evidence": {
+        "model": "商品页已选华为 Mate X8（44843447329）和首创隐形腕带【苍穹黑】支持磁吸无线充⭐️智能视窗⭐️镜头全包（45141335466），均可选，SKU 6158561144994。",
+        "price": "2026-11-18所选配置店铺优惠后259元，优惠前295元。",
+        "availability": "页面可领券购买、可加入购物车",
+        "features": "商家标明隐形腕带、磁吸支撑、智能视窗，腕带可收回。"
+      },
+      "sources": [
+        {
+          "url": "https://detail.tmall.com/item.htm?id=1098865955391&skuId=6158561144994",
+          "label": "天猫商品页",
+          "title": "行业首创】鸿锦富适用华为matex8手机壳新款磁吸腕带支架保护套x8典藏版折叠屏翻盖智能视窗超薄全包防摔商务",
+          "note": "2026-11-18核对所选实体规格及商品参数。"
+        }
+      ],
+      "checked_date": "2026-11-18"
+    },
+    "e4f967f907e77522de4a": {
+      "display_name": "磁吸智能视窗基础翻盖壳",
+      "variant": "华为 Mate X8 / 头层牛皮【苍穹黑】免翻盖接听⭐️智能皮套⭐️全包防摔",
+      "variants_note": "同结构不同配色及屏膜版本合并。",
+      "price": 168.0,
+      "currency": "CNY",
+      "price_note": "2026-11-18所选配置店铺优惠后168元，优惠前223元。",
+      "verified_date": "2026-11-18",
+      "sale_status": "页面可领券购买、可加入购物车",
+      "status_type": "在售",
+      "status_note": "商家标称适配，实际发货和真机效果待验证。",
+      "region": "中国淘宝/天猫",
+      "channel": {
+        "id": "tmall",
+        "label": "天猫 · 鸿锦富旗舰店",
+        "basis": "店铺及商品品牌参数",
+        "url": "https://detail.tmall.com/item.htm?id=1098460671498&skuId=6158603073594"
+      },
+      "summary": "商家标明磁吸翻盖、智能视窗及头层牛皮。",
+      "evidence": {
+        "model": "商品页已选华为 Mate X8（44843447329）和头层牛皮【苍穹黑】免翻盖接听⭐️智能皮套⭐️全包防摔（45130952845），均可选，SKU 6158603073594。",
+        "price": "2026-11-18所选配置店铺优惠后168元，优惠前223元。",
+        "availability": "页面可领券购买、可加入购物车",
+        "features": "商家标明磁吸翻盖、智能视窗及头层牛皮。"
+      },
+      "sources": [
+        {
+          "url": "https://detail.tmall.com/item.htm?id=1098460671498&skuId=6158603073594",
+          "label": "天猫商品页",
+          "title": "[官方正品]鸿锦富适用华为x8手机壳新款matex8典藏版折叠屏全包防摔磁吸翻盖保护壳matex8高端真皮外壳镜头",
+          "note": "2026-11-18核对所选实体规格及商品参数。"
+        }
+      ],
+      "checked_date": "2026-11-18"
+    },
+    "7c0f7059c078aa8742fc": {
+      "display_name": "270°旋转腕带智能视窗翻盖壳",
+      "variant": "华为 Mate X8 / 旋转腕带旗舰款【曜石黑】磁吸翻盖⭐智能视窗⭐全包防护",
+      "variants_note": "同结构不同配色及屏膜版本合并。",
+      "price": 213.0,
+      "currency": "CNY",
+      "price_note": "2026-11-18所选配置平台加补后213元，优惠前318元。",
+      "verified_date": "2026-11-18",
+      "sale_status": "页面可领券购买、可加入购物车",
+      "status_type": "在售",
+      "status_note": "商家标称适配，实际发货和真机效果待验证。",
+      "region": "中国淘宝/天猫",
+      "channel": {
+        "id": "tmall",
+        "label": "天猫 · 鸿锦富旗舰店",
+        "basis": "店铺及商品品牌参数",
+        "url": "https://detail.tmall.com/item.htm?id=1100550149736&skuId=6158167864795"
+      },
+      "summary": "页面型号为270°腕带支架，所选为磁吸翻盖、智能视窗款。",
+      "evidence": {
+        "model": "商品页已选华为 Mate X8（44843447329）和旋转腕带旗舰款【曜石黑】磁吸翻盖⭐智能视窗⭐全包防护（45134025211），均可选，SKU 6158167864795。",
+        "price": "2026-11-18所选配置平台加补后213元，优惠前318元。",
+        "availability": "页面可领券购买、可加入购物车",
+        "features": "页面型号为270°腕带支架，所选为磁吸翻盖、智能视窗款。"
+      },
+      "sources": [
+        {
+          "url": "https://detail.tmall.com/item.htm?id=1100550149736&skuId=6158167864795",
+          "label": "天猫商品页",
+          "title": "腕带支架】鸿锦富适用华为Matex8手机壳新款Matex8典藏版折叠屏皮套磁吸翻盖真皮x8保护套镜头全包商务男女",
+          "note": "2026-11-18核对所选实体规格及商品参数。"
+        }
+      ],
+      "checked_date": "2026-11-18"
+    },
+    "752674528fd6a75b2e83": {
+      "display_name": "双指环手持支架壳膜一体壳",
+      "variant": "华为 Mate X8 / 便捷手持支架【曜石黑★高清款】支持无线充★顶奢头层牛皮",
+      "variants_note": "同结构不同配色及屏膜版本合并。",
+      "price": 223.0,
+      "currency": "CNY",
+      "price_note": "2026-11-18所选配置平台加补后223元，优惠前333元。",
+      "verified_date": "2026-11-18",
+      "sale_status": "页面可领券购买、可加入购物车",
+      "status_type": "在售",
+      "status_note": "商家标称适配，实际发货和真机效果待验证。",
+      "region": "中国淘宝/天猫",
+      "channel": {
+        "id": "tmall",
+        "label": "天猫 · 鸿锦富旗舰店",
+        "basis": "店铺及商品品牌参数",
+        "url": "https://detail.tmall.com/item.htm?id=1101114589461&skuId=6323322930561"
+      },
+      "summary": "商品型号为双指环壳膜一体，所选高清前膜配置，商家标称牛皮。",
+      "evidence": {
+        "model": "商品页已选华为 Mate X8（44843447329）和便捷手持支架【曜石黑★高清款】支持无线充★顶奢头层牛皮（42927785380），均可选，SKU 6323322930561。",
+        "price": "2026-11-18所选配置平台加补后223元，优惠前333元。",
+        "availability": "页面可领券购买、可加入购物车",
+        "features": "商品型号为双指环壳膜一体，所选高清前膜配置，商家标称牛皮。"
+      },
+      "sources": [
+        {
+          "url": "https://detail.tmall.com/item.htm?id=1101114589461&skuId=6323322930561",
+          "label": "天猫商品页",
+          "title": "【防窥全包】鸿锦富适用华为x8手机壳新款Matex8典藏版真皮壳膜一体旋转支架matex8保护壳防摔全包外壳超薄",
+          "note": "2026-11-18核对所选实体规格及商品参数。"
+        }
+      ],
+      "checked_date": "2026-11-18"
+    },
+    "bdd80e9bdecdcf43569a": {
+      "display_name": "透明 PC 前后全包壳",
+      "variant": "华为 Mate X8 / 【全透明】【边框前盖+全包后盖】超薄裸感★晶透防摔★1件装",
+      "variants_note": "全透明无支架前后壳；同页两件装合并。",
+      "price": 26.01,
+      "currency": "CNY",
+      "price_note": "平台加补及淘金币后26.01元，优惠前29.90元。",
+      "verified_date": "2026-11-18",
+      "sale_status": "商品页显示有货，可加入购物车。",
+      "status_type": "在售",
+      "status_note": "商家标称适配，未实机验证。",
+      "region": "中国大陆",
+      "channel": {
+        "id": "tmall",
+        "label": "天猫 · ESCASE旗舰店",
+        "basis": "页面所选型号、规格、价格及店铺列表",
+        "url": "https://detail.tmall.com/item.htm?id=1099538282962&skuId=6322878099573"
+      },
+      "summary": "全透明、边框前盖与全包后盖，一件装。商品参数标注 PC。",
+      "evidence": {
+        "model": "在商品页选定华为 Mate X8 / 【全透明】【边框前盖+全包后盖】超薄裸感★晶透防摔★1件装，对应商品规格编号 6322878099573。",
+        "price": "平台加补及淘金币后26.01元，优惠前29.90元。",
+        "availability": "商品页显示有货，可加入购物车。",
+        "features": "全透明、边框前盖与全包后盖，一件装。商品参数标注 PC。"
+      },
+      "sources": [
+        {
+          "url": "https://detail.tmall.com/item.htm?id=1099538282962&skuId=6322878099573",
+          "label": "天猫 · ESCASE旗舰店",
+          "title": "ESCASE适用于华为MateX8手机壳新款HUAWEI Mate X8典藏版保护套简约男女个性创意高级感超薄透明防摔八代外壳",
+          "note": "2026-11-18核对商品页所选配置。"
+        }
+      ],
+      "checked_date": "2026-11-18"
+    },
+    "530d5ff35c82179a7f88": {
+      "display_name": "绅士系列磁吸中轴壳",
+      "variant": "华为 Mate X8 / 黑色 绅士磁吸款",
+      "variants_note": "与原至尊系列指环支架款相比，本商品为绅士系列基础磁吸壳；同型号黑色只计一次。",
+      "price": 78,
+      "currency": "CNY",
+      "price_note": "黑色绅士磁吸款标价78元。",
+      "verified_date": "2026-11-18",
+      "sale_status": "商品页显示有货，可加入购物车。",
+      "status_type": "在售",
+      "status_note": "商家标称适配，未实机验证。",
+      "region": "中国大陆",
+      "channel": {
+        "id": "taobao",
+        "label": "淘宝 · 长沙宝南数码",
+        "basis": "页面所选型号、规格、价格及店铺列表",
+        "url": "https://item.taobao.com/item.htm?id=1100591177277&skuId=6322661306188"
+      },
+      "summary": "所选黑色绅士磁吸款。页面标注内置引磁圈、覆盖中轴。纤维材质未核。",
+      "evidence": {
+        "model": "在商品页选定华为 Mate X8 / 黑色 绅士磁吸款，对应商品规格编号 6322661306188。",
+        "price": "黑色绅士磁吸款标价78元。",
+        "availability": "商品页显示有货，可加入购物车。",
+        "features": "所选黑色绅士磁吸款。页面标注内置引磁圈、覆盖中轴。纤维材质未核。"
+      },
+      "sources": [
+        {
+          "url": "https://item.taobao.com/item.htm?id=1100591177277&skuId=6322661306188",
+          "label": "淘宝 · 长沙宝南数码",
+          "title": "苏拉达绅士系列中轴款适用于华为MateX8典藏版内置磁吸手机壳MateX7/X6/X5凯夫拉手感内置引磁圈支持磁吸充电",
+          "note": "2026-11-18核对商品页所选配置。"
+        }
+      ],
+      "checked_date": "2026-11-18"
+    },
+    "6a5e463f02b80f9bd48f": {
+      "display_name": "O1S 素皮旋转支点壳",
+      "variant": "Mate X8 / O1S",
+      "variants_note": "黑、白两种配色零售编号不同，同一结构合并。",
+      "price": null,
+      "currency": "",
+      "price_note": "公开页暂无可核报价，仅计入款式数。",
+      "verified_date": "2026-11-18",
+      "status_type": "目录收录",
+      "sale_status": "京东自营已列出，能否下单待核",
+      "status_note": "未验证真机适配。",
+      "region": "中国大陆",
+      "channel": {
+        "id": "jd",
+        "label": "京东自营",
+        "basis": "公开商品卡标注自营",
+        "url": "https://item.jd.com/100421135098.html"
+      },
+      "evidence": {
+        "model": "京东公开自营商品卡将该款标为适用华为 Mate X8，链接对应商品编号 100421135098。",
+        "price": "该商品编号的公开价格未核得。",
+        "availability": "目录列出具体商品，库存与可下单状态待核。",
+        "features": "黑、白两种配色零售编号不同，同一结构合并。"
+      },
+      "sources": [
+        {
+          "label": "京东自营商品卡所在页面",
+          "url": "https://www.jd.com/hprm/9987329d09dfa0f9ebad.html",
+          "title": "华为s7壳 - 京东",
+          "note": "卡片标题、商品编号及自营标识可见，列表可能变动。"
+        },
+        {
+          "label": "京东具体商品",
+          "url": "https://item.jd.com/100421135098.html",
+          "title": "O1S 素皮旋转支点壳",
+          "note": "规格价格及可下单状态待核。"
+        },
+        {
+          "label": "京东同款白色",
+          "url": "https://item.jd.com/100322340371.html",
+          "title": "O1S 白色",
+          "note": "与黑色合并。"
+        }
+      ],
+      "checked_date": "2026-11-18"
+    },
+    "28ae1e5da6df8a0a0439": {
+      "display_name": "360° 旋转支架翻盖壳",
+      "variant": "Mate X8 / 翻盖旋转支架",
+      "variants_note": "旋转撑环搭配覆盖前屏的翻盖；同结构不同颜色合并。",
+      "price": null,
+      "currency": "",
+      "price_note": "公开页暂无可核报价，仅计入款式数。",
+      "verified_date": "2026-11-18",
+      "status_type": "目录收录",
+      "sale_status": "京东自营已列出，能否下单待核",
+      "status_note": "未验证真机适配。",
+      "region": "中国大陆",
+      "channel": {
+        "id": "jd",
+        "label": "京东自营",
+        "basis": "公开商品卡标注自营",
+        "url": "https://item.jd.com/100446664718.html"
+      },
+      "evidence": {
+        "model": "京东公开自营商品卡将该款标为适用华为 Mate X8，链接对应商品编号 100446664718。",
+        "price": "该商品编号的公开价格未核得。",
+        "availability": "目录列出具体商品，库存与可下单状态待核。",
+        "features": "旋转撑环搭配覆盖前屏的翻盖；同结构不同颜色合并。"
+      },
+      "sources": [
+        {
+          "label": "京东自营商品卡所在页面",
+          "url": "https://www.jd.com/xinkuan/99877d1dc3f90be861d4.html",
+          "title": "手机壳美工坊新款 - 手机壳美工坊今年新款 - 京东",
+          "note": "卡片标题、商品编号及自营标识可见，列表可能变动。"
+        },
+        {
+          "label": "京东具体商品",
+          "url": "https://item.jd.com/100446664718.html",
+          "title": "360° 旋转支架翻盖壳",
+          "note": "规格价格及可下单状态待核。"
+        }
+      ],
+      "checked_date": "2026-11-18"
+    },
+    "2e21c1b950e006496a01": {
+      "display_name": "无感腕带翻盖壳",
+      "variant": "Mate X8 / 无感腕带翻盖",
+      "variants_note": "壳背为可提起的腕带支架，与旋转撑环翻盖区分。",
+      "price": null,
+      "currency": "",
+      "price_note": "公开页暂无可核报价，仅计入款式数。",
+      "verified_date": "2026-11-18",
+      "status_type": "目录收录",
+      "sale_status": "京东自营已列出，能否下单待核",
+      "status_note": "未验证真机适配。",
+      "region": "中国大陆",
+      "channel": {
+        "id": "jd",
+        "label": "京东自营",
+        "basis": "公开商品卡标注自营",
+        "url": "https://item.jd.com/100337576959.html"
+      },
+      "evidence": {
+        "model": "京东公开自营商品卡将该款标为适用华为 Mate X8，链接对应商品编号 100337576959。",
+        "price": "该商品编号的公开价格未核得。",
+        "availability": "目录列出具体商品，库存与可下单状态待核。",
+        "features": "壳背为可提起的腕带支架，与旋转撑环翻盖区分。"
+      },
+      "sources": [
+        {
+          "label": "京东自营商品卡所在页面",
+          "url": "https://www.jd.com/xinkuan/99877d1dc3f90be861d4.html",
+          "title": "手机壳美工坊新款 - 手机壳美工坊今年新款 - 京东",
+          "note": "卡片标题、商品编号及自营标识可见，列表可能变动。"
+        },
+        {
+          "label": "京东具体商品",
+          "url": "https://item.jd.com/100337576959.html",
+          "title": "无感腕带翻盖壳",
+          "note": "规格价格及可下单状态待核。"
+        },
+        {
+          "url": "https://img30.360buyimg.com/n7/jfs/t1/554930/4/9125/2209886/6aec7893Fde9552fd/00834e64e616e2bb.png",
+          "label": "京东自营红色腕带款示意图",
+          "title": "摩斐红色腕带翻盖壳，品牌商品图",
+          "note": "图中标注适用华为 Mate X8 系列；示意图来自京东商品卡。"
+        }
+      ],
+      "checked_date": "2026-11-18"
+    },
+    "485abfb4d6145919f7d7": {
+      "display_name": "精孔镜头全包旋转支架壳",
+      "variant": "Mate X8 / 精孔镜头全包",
+      "variants_note": "商品卡示意为分体壳，带环形支架；与同品牌整片翻盖款区分。",
+      "price": null,
+      "currency": "",
+      "price_note": "公开页暂无可核报价，仅计入款式数。",
+      "verified_date": "2026-11-18",
+      "status_type": "目录收录",
+      "sale_status": "京东自营已列出，能否下单待核",
+      "status_note": "未验证真机适配。",
+      "region": "中国大陆",
+      "channel": {
+        "id": "jd",
+        "label": "京东自营",
+        "basis": "公开商品卡标注自营",
+        "url": "https://item.jd.com/100446678456.html"
+      },
+      "evidence": {
+        "model": "京东公开自营商品卡将该款标为适用华为 Mate X8，链接对应商品编号 100446678456。",
+        "price": "该商品编号的公开价格未核得。",
+        "availability": "目录列出具体商品，库存与可下单状态待核。",
+        "features": "商品卡示意为分体壳，带环形支架；与同品牌整片翻盖款区分。"
+      },
+      "sources": [
+        {
+          "label": "京东自营商品卡所在页面",
+          "url": "https://www.jd.com/xinkuan/99877d1dc3f90be861d4.html",
+          "title": "手机壳美工坊新款 - 手机壳美工坊今年新款 - 京东",
+          "note": "卡片标题、商品编号及自营标识可见，列表可能变动。"
+        },
+        {
+          "label": "京东具体商品",
+          "url": "https://item.jd.com/100446678456.html",
+          "title": "精孔镜头全包旋转支架壳",
+          "note": "规格价格及可下单状态待核。"
+        }
+      ],
+      "checked_date": "2026-11-18"
     }
   }
 }
