@@ -91,7 +91,68 @@
  }
  function price(p){if(p.price===undefined||p.price===null||p.price==='')return '';return [p.currency||'',p.price].join(' ').trim()}
  function productCard(p,showPhone){return CaseUI.card(p,phoneMap,showPhone)}
- function phoneCard(p){let a=el('article','item');let link=el('a');link.href=p.phone_key===duoKey?'duo.html':'case.html?phone='+encodeURIComponent(p.phone_key);link.append(picture(p.image,p.model));a.append(link);let b=el('a','item-brand',p.brand||'');b.href='index.html?phoneBrand='+encodeURIComponent(p.brand||'');a.append(b);let n=el('a','item-name',p.model||'');n.href=link.href;a.append(n);
+ function phoneState(p,container){
+  if(p.status_note)container.append(el('p','phone-status-note',p.status_note));
+  if(p.announced_launch_date){
+   const note=el('p','phone-announced-date','官方预告发布日 '+p.announced_launch_date);
+   if(safeLink(p.announced_launch_source)){const source=el('a','',' · 查看官方预告 ↗');source.href=p.announced_launch_source;source.target='_blank';source.rel='noopener noreferrer';note.append(source);}
+   container.append(note);
+  }
+  if(p.phone_key==='huawei-mate-x8'&&p.image&&safeLink(p.image_source_url)){
+   const note=el('p','phone-image-source');
+   const source=el('a','','手机图来源 ↗');source.href=p.image_source_url;source.target='_blank';source.rel='noopener noreferrer';
+   note.append(source,document.createTextNode(' · '+(p.image_note||'媒体转刊，保留水印')));
+   container.append(note);
+  }
+ }
+ function showMarketObservation(p){
+  const observation=p.market_observation,head=$('.page-head');
+  if(!isCase||!observation||!head)return;
+  const section=el('section','market-observation');section.setAttribute('aria-label',p.model+' 市场观察');
+  section.append(el('p','market-observation-date','市场观察 · '+observation.checked_date),el('h2','',observation.headline));
+  const points=el('ul');
+  for(const point of (observation.points||[]))points.append(el('li','',point));
+  section.append(points);
+  const methodology=el('details','market-observation-methodology');
+  methodology.append(el('summary','','样本口径、品牌预告与来源'),el('p','market-observation-scope',observation.scope_note));
+  if(observation.preview_note)methodology.append(el('p','market-observation-preview',observation.preview_note));
+  if(observation.sources?.length){
+   const sources=el('div','market-observation-sources');
+   for(const item of observation.sources){
+    if(!safeLink(item.url))continue;
+    const source=el('a','',item.label+' ↗');source.href=item.url;source.target='_blank';source.rel='noopener noreferrer';sources.append(source);
+   }
+   methodology.append(sources);
+  }
+  section.append(methodology);head.after(section);
+ }
+ function showBrandCoverage(p){
+  const coverage=p.brand_coverage,head=$('.page-head');
+  if(!isCase||p.phone_key!=='huawei-mate-x8'||!coverage||!head)return;
+  const section=el('details','brand-coverage');
+  section.append(el('summary','','重点品牌核查 · '+coverage.rows.length+' 个品牌'));
+  section.append(el('p','brand-coverage-date','核查日期 '+coverage.checked_date));
+  section.append(el('p','brand-coverage-scope','列入核查不等于已有商品，数量仅统计本批 Mate X8。'+coverage.scope_note));
+  const table=el('table'),thead=el('thead'),header=el('tr');
+  for(const label of ['品牌','核查状态','证据与已查渠道']){const th=el('th','',label);th.scope='col';header.append(th);}
+  thead.append(header);table.append(thead);
+  const body=el('tbody');
+  for(const row of coverage.rows){
+   const tr=el('tr'),brand=el('th','',row.brand);brand.scope='row';
+   const state=el('td');state.append(el('p','',row.status),el('p','brand-coverage-count','本批有效样本 '+row.effective_samples+' · 未计数观察 '+row.uncounted_records));
+   const evidence=el('td');
+   if(row.channels.length)evidence.append(el('p','brand-coverage-channels','已查渠道：'+row.channels.join('、')));
+   evidence.append(el('p','',row.note));
+   if(row.sources.length){
+    const links=el('div','brand-coverage-sources');
+    for(const item of row.sources){if(!safeLink(item.url))continue;const link=el('a','',item.label+' ↗');link.href=item.url;link.target='_blank';link.rel='noopener noreferrer';links.append(link);}
+    evidence.append(links);
+   }
+   tr.append(brand,state,evidence);body.append(tr);
+  }
+  table.append(body);section.append(table);($('.market-observation')||head).after(section);
+ }
+ function phoneCard(p){let a=el('article','item');let link=el('a');link.href=p.phone_key===duoKey?'duo.html':'case.html?phone='+encodeURIComponent(p.phone_key);link.append(picture(p.image,p.model));a.append(link);let b=el('a','item-brand',p.brand||'');b.href='index.html?phoneBrand='+encodeURIComponent(p.brand||'');a.append(b);let n=el('a','item-name',p.model||'');n.href=link.href;a.append(n);phoneState(p,a);
   const sampleCount = phoneSampleCounts.get(p.phone_key) || 0;
   a.append(el('div', 'item-brand-count', audit ? `已收录 ${sampleCount} 个有效手机壳样本` : '手机壳样本数待核'));
   return a
@@ -190,8 +251,8 @@
   return;
  }
  function asTags(p){return CaseUI.tags(p).map(CaseUI.label)}
- function render(){let q=norm(input.value),items;if(isCase){items=products.filter(p=>p.phone_key===phoneKey&&(!selectedBrand||brandKey(p.brand)===brandKey(selectedBrand))&&(!selectedFeature||asTags(p).includes(selectedFeature))&&(!q||norm([p.brand,p.product_name,p.series].join(' ')).includes(q)))}else if(brandParam){items=products.filter(p=>brandKey(p.brand)===brandKey(brandParam)&&(!q||norm([p.product_name,phoneMap.get(p.phone_key)?.model].join(' ')).includes(q)))}else{items=phones.filter(p=>(!phoneBrand||norm(p.brand)===norm(phoneBrand))&&(!q||norm([p.brand,p.model].join(' ')).includes(q))).slice().sort((a,b)=>String(b.date||'').localeCompare(String(a.date||'')))}grid.replaceChildren(...items.map(p=>isCase||brandParam?productCard(p,!!brandParam):phoneCard(p)));result.textContent=items.length+(isCase?' 条适配记录':brandParam?' 条商品记录':' 款机型');empty.hidden=items.length!==0}
- if(isCase){let phone=phoneMap.get(phoneKey);title.textContent=phone?.model||'保护壳';document.title=(phone?.model||'保护壳')+' · FOLD / CASE';$('#phone-brand').textContent=phone?.brand||'';let caseItems=products.filter(p=>p.phone_key===phoneKey);
+ function render(){let q=norm(input.value),items;if(isCase){items=products.filter(p=>p.phone_key===phoneKey&&(!selectedBrand||brandKey(p.brand)===brandKey(selectedBrand))&&(!selectedFeature||asTags(p).includes(selectedFeature))&&(!q||norm([p.brand,p.product_name,p.series].join(' ')).includes(q)))}else if(brandParam){items=products.filter(p=>brandKey(p.brand)===brandKey(brandParam)&&(!q||norm([p.product_name,phoneMap.get(p.phone_key)?.model].join(' ')).includes(q)))}else{items=phones.filter(p=>(!phoneBrand||norm(p.brand)===norm(phoneBrand))&&(!q||norm([p.brand,p.model].join(' ')).includes(q))).slice().sort((a,b)=>String(b.date||'').localeCompare(String(a.date||'')))}grid.replaceChildren(...items.map(p=>isCase||brandParam?productCard(p,!!brandParam):phoneCard(p)));result.textContent=items.length+(isCase?(phoneMap.get(phoneKey)?.market_observation?' 条观察记录':' 条适配记录'):brandParam?' 条商品记录':' 款机型');empty.hidden=items.length!==0}
+ if(isCase){let phone=phoneMap.get(phoneKey);title.textContent=phone?.model||'保护壳';document.title=(phone?.model||'保护壳')+' · FOLD / CASE';$('#phone-brand').textContent=phone?.brand||'';if(phone){phoneState(phone,title.parentElement);showMarketObservation(phone);showBrandCoverage(phone);}let caseItems=products.filter(p=>p.phone_key===phoneKey);
  const bundleItems = (data.bundles || []).filter(item => item.phone_key === phoneKey && safeLink(item.product_url));
  if (phone && caseItems.length === 0) empty.textContent = bundleItems.length ? '暂未收录独立品牌保护壳' : '这个机型暂未收录保护壳';
  if (bundleItems.length) {

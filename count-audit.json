@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "checked_date": "2026-11-06",
-  "total_counted": 1016,
-  "non_duo_counted": 833,
+  "checked_date": "2026-11-18",
+  "total_counted": 1024,
+  "non_duo_counted": 841,
   "duo_counted": 183,
   "duo_display_records": 186,
-  "relationship_count": 1122,
-  "not_counted_relationships": 61,
-  "pending_relationships": 61,
+  "relationship_count": 1131,
+  "not_counted_relationships": 62,
+  "pending_relationships": 62,
   "merged_relationships": 45,
   "counting_rule": "保守下界：按已核商品身份及明确机型变体计数；同商品跨机型兼容、同款重复来源、颜色或附加膜的套装不重复计数。商品关系与品牌数分别显示。",
-  "verification_scope": "沿用既有商品与机型证据，核对当前公开目录和本机证据存续，并排查重复；历史售卖状态不作为当前库存证明。",
+  "verification_scope": "旧机型与商品沿用2026-11-06目录及审计；本次仅新增Mate X8商家适配样本。核验商家发布信息，不证明手机官方规格、实物适配或实时库存。",
   "counted_product_ids": [
     "000ee9379a7f31a18561",
     "003b63b440b7053f93dc",
@@ -1072,7 +1072,15 @@
     "ff51d42fe84ac39082cd",
     "ff5d11c1e7c3ae9b40f1",
     "ffd8c623a7776e28f85e",
-    "ffeaa5220249c32bd8af"
+    "ffeaa5220249c32bd8af",
+    "f638c3af2ec415d26078",
+    "6f88574618ac0a43941e",
+    "ca50cf4396d5ce3c3c52",
+    "3569bd96ac05075783e6",
+    "6c11f312ddaded8c9203",
+    "a0ecca4058a8c0de23e6",
+    "e52da599860bc5fc7974",
+    "c12f46aa796d9ed5de76"
   ],
   "counted_representative_ids": [
     "000ee9379a7f31a18561",
@@ -2090,7 +2098,15 @@
     "ff51d42fe84ac39082cd",
     "ff5d11c1e7c3ae9b40f1",
     "ffd8c623a7776e28f85e",
-    "ffeaa5220249c32bd8af"
+    "ffeaa5220249c32bd8af",
+    "f638c3af2ec415d26078",
+    "6f88574618ac0a43941e",
+    "ca50cf4396d5ce3c3c52",
+    "3569bd96ac05075783e6",
+    "6c11f312ddaded8c9203",
+    "a0ecca4058a8c0de23e6",
+    "e52da599860bc5fc7974",
+    "c12f46aa796d9ed5de76"
   ],
   "groups": [
     {
@@ -9248,6 +9264,62 @@
       "representative_id": "ffeaa5220249c32bd8af",
       "relationship_ids": [
         "ffeaa5220249c32bd8af"
+      ]
+    },
+    {
+      "count_key": "532fbfbf0d46855bb1a4",
+      "representative_id": "f638c3af2ec415d26078",
+      "relationship_ids": [
+        "f638c3af2ec415d26078"
+      ]
+    },
+    {
+      "count_key": "8bf22983daf3bc8c0464",
+      "representative_id": "6f88574618ac0a43941e",
+      "relationship_ids": [
+        "6f88574618ac0a43941e"
+      ]
+    },
+    {
+      "count_key": "b176ff9e7280a87f2ee5",
+      "representative_id": "ca50cf4396d5ce3c3c52",
+      "relationship_ids": [
+        "ca50cf4396d5ce3c3c52"
+      ]
+    },
+    {
+      "count_key": "77b0e677dedd13dabdf1",
+      "representative_id": "3569bd96ac05075783e6",
+      "relationship_ids": [
+        "3569bd96ac05075783e6"
+      ]
+    },
+    {
+      "count_key": "6bb3974480114a2da09b",
+      "representative_id": "6c11f312ddaded8c9203",
+      "relationship_ids": [
+        "6c11f312ddaded8c9203"
+      ]
+    },
+    {
+      "count_key": "0ee6689f83ba7eb1b95d",
+      "representative_id": "a0ecca4058a8c0de23e6",
+      "relationship_ids": [
+        "a0ecca4058a8c0de23e6"
+      ]
+    },
+    {
+      "count_key": "223faac97bab4c45039a",
+      "representative_id": "e52da599860bc5fc7974",
+      "relationship_ids": [
+        "e52da599860bc5fc7974"
+      ]
+    },
+    {
+      "count_key": "fdeb7ffdbb9b432ba952",
+      "representative_id": "c12f46aa796d9ed5de76",
+      "relationship_ids": [
+        "c12f46aa796d9ed5de76"
       ]
     }
   ]

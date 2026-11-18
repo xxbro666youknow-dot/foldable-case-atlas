@@ -11,9 +11,16 @@
   const metric = (value, label) => `<div><strong>${escape(value)}</strong><span>${escape(label)}</span></div>`;
   fetch('coverage-data.json', {cache:'no-store'}).then(response => { if (!response.ok) throw Error('载入失败'); return response.json(); }).then(data => {
     const total = data.summary;
-    document.getElementById('image-progress').textContent = `本轮填补期初缺图 ${total.baseline_missing_images_filled} 条；新增适配中 ${total.new_relationships_with_images} 条已有图（其中 ${total.new_relationships_reusing_images} 条复用既有图）；另更换 ${total.existing_images_replaced} 条图片，因使用依据不足撤下 ${total.existing_images_withdrawn || 0} 条既有图片。当前仍有 ${total.missing_image_relationships} 条适配记录缺图。`;
-    document.getElementById('updated').textContent = `核验日期 ${data.checked_date} · 72 款机型 · 点击机型查看已收录商品`;
-    document.getElementById('summary').innerHTML = metric(number(total.effective),'全站有效手机壳样本') + metric('+' + number(total.net_added),'本轮净增有效样本') + metric(data.phones.length,'现有已收录机型') + metric(number(total.image_updates),'本轮补图适配记录');
+    const batch = data.latest_addition_batch;
+    const history = data.historical_image_summary;
+    document.getElementById('image-progress').textContent = batch
+      ? `本次新增 ${batch.relationships} 条 Mate X8 观察/适配记录，计入 ${batch.phone_effective_samples} 个有效样本，另 ${batch.uncounted_records || 0} 条观察记录未计样本。${batch.with_image} 条已有图，对应 ${batch.distinct_image_hashes} 个不同图片内容；${batch.without_image} 条无图或外观尚未公布。全站当前共 ${total.missing_image_relationships} 条记录缺图。`
+      : `此前填补期初缺图 ${total.baseline_missing_images_filled} 条；全站当前仍有 ${total.missing_image_relationships} 条记录缺图。`;
+    const historyBox = document.getElementById('image-history');
+    if (historyBox && history) historyBox.textContent = `历史修图累计（截至 ${history.checked_date}）：期初 ${history.initial_missing_images} 条缺图中补齐 ${history.baseline_missing_images_filled} 条，对应 ${history.distinct_image_hashes} 个不同图片内容；另因使用依据不足撤下 ${history.existing_images_withdrawn} 条旧图，彼时仍缺 ${history.missing_image_relationships} 条。本次 X8 新增带图与这些历史修图分别统计。`;
+    document.getElementById('updated').textContent = `核验日期 ${data.checked_date} · ${data.phones.length} 款机型 · 点击机型查看已收录商品`;
+    const scopeNote=document.getElementById('scope-note');if(scopeNote&&data.scope_note)scopeNote.textContent=data.scope_note;
+    document.getElementById('summary').innerHTML = metric(number(total.effective),'全站有效手机壳样本') + metric('+' + number(total.net_added),'本次净增有效样本') + metric(data.phones.length,'现有已收录机型') + metric(number(batch ? batch.with_image : total.image_updates),batch ? '本次新增带图记录' : '此前补图适配记录');
     const gapBox = document.getElementById('image-gap-summary');
     if (gapBox && Array.isArray(data.image_gap_reasons)) {
       gapBox.innerHTML = '<strong>剩余缺图原因</strong><ul>' + data.image_gap_reasons.map(row => `<li>${escape(row.reason)}：${number(row.count)} 条</li>`).join('') + '</ul><a href="missing-image-status.json" download>下载逐条缺图状态与来源</a>';
